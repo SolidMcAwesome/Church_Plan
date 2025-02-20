@@ -56,6 +56,7 @@
             // cbxV
             // 
             this.cbxV.BackColor = System.Drawing.Color.Teal;
+            this.cbxV.Enabled = false;
             this.cbxV.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cbxV.Font = new System.Drawing.Font("Microsoft Sans Serif", 24.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbxV.ForeColor = System.Drawing.SystemColors.Window;
@@ -149,18 +150,18 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lbVersesPreview.BackColor = System.Drawing.Color.Teal;
-            this.lbVersesPreview.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.lbVersesPreview.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
             this.lbVersesPreview.ForeColor = System.Drawing.SystemColors.Window;
             this.lbVersesPreview.FormattingEnabled = true;
             this.lbVersesPreview.HorizontalScrollbar = true;
-            this.lbVersesPreview.ItemHeight = 25;
+            this.lbVersesPreview.ItemHeight = 38;
             this.lbVersesPreview.Items.AddRange(new object[] {
             "Verse 1",
             "Verse 2",
             "Verse 3"});
             this.lbVersesPreview.Location = new System.Drawing.Point(789, 89);
             this.lbVersesPreview.Name = "lbVersesPreview";
-            this.lbVersesPreview.Size = new System.Drawing.Size(646, 729);
+            this.lbVersesPreview.Size = new System.Drawing.Size(646, 726);
             this.lbVersesPreview.TabIndex = 9;
             this.lbVersesPreview.SelectedIndexChanged += new System.EventHandler(this.lbVersesPreview_SelectedIndexChanged);
             // 

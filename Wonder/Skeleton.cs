@@ -126,26 +126,25 @@ namespace Wonder
             Selection[2] = cbxBC.Text; // Chapter
             Selection[3] = cbxBV.Text; // Verse
 
-            string reading = BB.getReading(Selection);
+            string reading =  BB.getReading(Selection);
             return reading;
         }
         
-        private void checkEnter()
-        {
-
-        }
+        
         
         
         
         
         private void updatePreview(string input)
         {
-            rtbPreview.Text = input;
+            input = input.Replace(";", "\n");
+            string reading = Selection[1] + " " + Selection[2] + ":" + Selection[3] + "\n\n" + input;
+            rtbPreview.Text = reading;
             rtbPreview.SelectAll();
             rtbPreview.SelectionAlignment = HorizontalAlignment.Center;
             AdjustFontSize();
 
-            projection.updateText(input);
+            projection.updateText(reading);
         }
         private void updateLBVerses(List<string> input)
         {
@@ -204,7 +203,9 @@ namespace Wonder
 
         private void lbVersesPreview_SelectedIndexChanged(object sender, EventArgs e)
         {
-            updatePreview(lbVersesPreview.SelectedItem.ToString());
+            int vv = lbVersesPreview.SelectedIndex + 1;
+            cbxBV.Text = vv.ToString();
+            updatePreview(BibleReading());
         }
 
         private void cbxBC_SelectedIndexChanged(object sender, EventArgs e)
