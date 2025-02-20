@@ -1,0 +1,12 @@
+C:\Users\T\Documents\Work\WWW\Church_Plan\Wonder\obj\Debug\Wonder.csproj.AssemblyReference.cache
+C:\Users\T\Documents\Work\WWW\Church_Plan\Wonder\obj\Debug\Wonder.csproj.SuggestedBindingRedirects.cache
+C:\Users\T\Documents\Work\WWW\Church_Plan\Wonder\obj\Debug\Wonder.Skeleton.resources
+C:\Users\T\Documents\Work\WWW\Church_Plan\Wonder\obj\Debug\Wonder.Properties.Resources.resources
+C:\Users\T\Documents\Work\WWW\Church_Plan\Wonder\obj\Debug\Wonder.csproj.GenerateResource.cache
+C:\Users\T\Documents\Work\WWW\Church_Plan\Wonder\obj\Debug\Wonder.csproj.CoreCompileInputs.cache
+C:\Users\T\Documents\Work\WWW\Church_Plan\Wonder\bin\Debug\Wonder.exe.config
+C:\Users\T\Documents\Work\WWW\Church_Plan\Wonder\bin\Debug\Wonder.exe
+C:\Users\T\Documents\Work\WWW\Church_Plan\Wonder\bin\Debug\Wonder.pdb
+C:\Users\T\Documents\Work\WWW\Church_Plan\Wonder\obj\Debug\Wonder.exe
+C:\Users\T\Documents\Work\WWW\Church_Plan\Wonder\obj\Debug\Wonder.pdb
+C:\Users\T\Documents\Work\WWW\Church_Plan\Wonder\obj\Debug\Wonder.Projection.resources
