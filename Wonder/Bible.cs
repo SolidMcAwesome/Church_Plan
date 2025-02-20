@@ -10,9 +10,9 @@ namespace Wonder
 {
     internal class Bible
     {
-        public Bible() 
+        public Bible()
         {
-            
+
         }
 
         public string getReading(string[] selection)
@@ -20,43 +20,75 @@ namespace Wonder
             string reading = getVerse(selection);
             return reading;
         }
-
-        private static void readVerse() 
-        { 
-            string verse = getVerse(chooseVerse()); 
-            Console.WriteLine($"Verse: {verse}"); 
-        }
-        private static string[] chooseVerse()
+        public List<string> getChapterReading(string[] selection)
         {
-            string Bible = "KJV.xml"; // CustomBible.xml     
-            string Book = "John";        
-            string Chapter = "3";        
-            string Verse = "16";
-
-            Console.WriteLine("Book: "); 
-            Book = Console.ReadLine(); 
-            Console.WriteLine("Chapter: "); 
-            Chapter = Console.ReadLine(); 
-            Console.WriteLine("Verse: "); 
-            Verse = Console.ReadLine();
-            string[] selection = { Bible, Book, Chapter, Verse };
-            return selection;
+            List<string> chapter = getChapter(selection);
+            return chapter;
         }
+        public List<string> getChapterNumbers(string[] selection)
+        {
+            List<string> chapters = getChapters(selection);
+            return chapters;
+        }
+        public List<string> getBibleBooks(string[] selection)
+        {
+            List<string> books = getBooks(selection);
+            return books;
+        }
+        private static List<string> getBooks(string[] selection) //////////////////////
+        {
+            string bible = selection[0];
+
+            XDocument BB = XDocument.Load(bible);
+            var output = (from b in BB.Descendants("BIBLEBOOK")
+                          select b.Attribute("bname").Value).ToList();
+            return output;
+        }
+
+        private static List<string> getChapters(string[] selection)
+        {
+            string bible = selection[0];
+            string book = selection[1];
+
+            XDocument BB = XDocument.Load(bible);
+            var output = (from b in BB.Descendants("BIBLEBOOK")
+                          where b.Attribute("bname")?.Value == book
+                          from c in b.Descendants("CHAPTER")
+                          select c.Value).ToList();
+            return output;
+        }
+
+        private static List<string> getChapter(string[] selection)
+        {
+            string bible = selection[0];
+            string book = selection[1];
+            string chapter = selection[2];
+
+            XDocument BB = XDocument.Load(bible);
+            var output = (from b in BB.Descendants("BIBLEBOOK")
+                     where b.Attribute("bname")?.Value == book
+                     from c in b.Descendants("CHAPTER")
+                     where c.Attribute("cnumber")?.Value == chapter
+                     from v in c.Descendants("VERS")
+                     select v.Value).ToList();
+            return output;
+        }
+
         private static string getVerse(string[] selection)
         {
-            string bible = selection[0]; 
-            string book = selection[1]; 
-            string chapter = selection[2]; 
-            string verse = selection[3]; 
-            var output = ""; 
-            XDocument BB = XDocument.Load(bible); 
-            output = (from b in BB.Descendants("BIBLEBOOK") 
-                      where b.Attribute("bname")?.Value == book 
-                      from c in b.Descendants("CHAPTER") 
-                      where c.Attribute("cnumber")?.Value == chapter 
-                      from v in c.Descendants("VERS") 
-                      where v.Attribute("vnumber")?.Value == verse 
-                      select v.Value).FirstOrDefault();        
+            string bible = selection[0];
+            string book = selection[1];
+            string chapter = selection[2];
+            string verse = selection[3];
+            var output = "";
+            XDocument BB = XDocument.Load(bible);
+            output = (from b in BB.Descendants("BIBLEBOOK")
+                      where b.Attribute("bname")?.Value == book
+                      from c in b.Descendants("CHAPTER")
+                      where c.Attribute("cnumber")?.Value == chapter
+                      from v in c.Descendants("VERS")
+                      where v.Attribute("vnumber")?.Value == verse
+                      select v.Value).FirstOrDefault();
             /// custom        
             ///  var output = (from b in BB.Descendants("book")        
             ///                  where b.Attribute("title")?.Value == book        
@@ -65,7 +97,24 @@ namespace Wonder
             ///                  from v in c.Descendants("verse")        
             ///                 where v.Attribute("num")?.Value == verse        
             ///                  select v.Value).FirstOrDefault();       
-            
-            return output;    }
+
+            return output; }
+
+        private static string[] chooseVerse()
+        {
+            string Bible = "KJV.xml"; // CustomBible.xml     
+            string Book = "John";
+            string Chapter = "3";
+            string Verse = "16";
+
+            Console.WriteLine("Book: ");
+            Book = Console.ReadLine();
+            Console.WriteLine("Chapter: ");
+            Chapter = Console.ReadLine();
+            Console.WriteLine("Verse: ");
+            Verse = Console.ReadLine();
+            string[] selection = { Bible, Book, Chapter, Verse };
+            return selection;
         }
     }
+}

@@ -41,19 +41,22 @@
             this.rtbOutput.BackColor = System.Drawing.Color.Teal;
             this.rtbOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 100F);
             this.rtbOutput.ForeColor = System.Drawing.SystemColors.Window;
-            this.rtbOutput.Location = new System.Drawing.Point(200, 144);
+            this.rtbOutput.Location = new System.Drawing.Point(106, 112);
             this.rtbOutput.Name = "rtbOutput";
-            this.rtbOutput.Size = new System.Drawing.Size(1164, 648);
+            this.rtbOutput.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Horizontal;
+            this.rtbOutput.Size = new System.Drawing.Size(1271, 682);
             this.rtbOutput.TabIndex = 0;
             this.rtbOutput.Text = "Test";
             // 
             // btnExit
             // 
             this.btnExit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnExit.BackColor = System.Drawing.Color.BlueViolet;
-            this.btnExit.Location = new System.Drawing.Point(1398, 28);
+            this.btnExit.BackColor = System.Drawing.Color.Teal;
+            this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.btnExit.Location = new System.Drawing.Point(1360, 28);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(45, 23);
+            this.btnExit.Size = new System.Drawing.Size(83, 42);
             this.btnExit.TabIndex = 1;
             this.btnExit.Text = "Close";
             this.btnExit.UseVisualStyleBackColor = false;
