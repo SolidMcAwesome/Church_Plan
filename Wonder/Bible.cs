@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -30,14 +31,32 @@ namespace Wonder
             List<string> chapters = getChapters(selection);
             return chapters;
         }
-        public List<string> getBibleBooks(string[] selection)
+        public List<string> getBibleBooks(string selection)
         {
             List<string> books = getBooks(selection);
             return books;
         }
-        private static List<string> getBooks(string[] selection) //////////////////////
+        public List<string> getBibleVersions()
         {
-            string bible = selection[0];
+            List<string> versions = getBible();
+            return versions;
+        }
+        private static List<string> getBible()
+        {
+            string[] versions = Directory.GetFiles("Bibles");
+            //List<string> versionFiles = versions.Where(file => file.EndsWith(".xml", StringComparison.OrdinalIgnoreCase)).ToList();
+            //List<string> versionNames = versionFiles.Select(Path.GetFileName).ToList();
+
+            List<string> versionNames = versions
+                .Where(file => file.EndsWith(".xml", StringComparison.OrdinalIgnoreCase))
+                .Select(Path.GetFileNameWithoutExtension)
+                .ToList();
+
+            return versionNames;
+        }
+        private static List<string> getBooks(string selection) //////////////////////
+        {
+            string bible = "Bibles/" + selection;
 
             XDocument BB = XDocument.Load(bible);
             var output = (from b in BB.Descendants("BIBLEBOOK")
@@ -47,7 +66,7 @@ namespace Wonder
 
         private static List<string> getChapters(string[] selection)
         {
-            string bible = selection[0];
+            string bible = "Bibles/" + selection[0];
             string book = selection[1];
 
             XDocument BB = XDocument.Load(bible);
@@ -60,7 +79,7 @@ namespace Wonder
 
         private static List<string> getChapter(string[] selection)
         {
-            string bible = selection[0];
+            string bible = "Bibles/" + selection[0];
             string book = selection[1];
             string chapter = selection[2];
 
@@ -76,7 +95,7 @@ namespace Wonder
 
         private static string getVerse(string[] selection)
         {
-            string bible = selection[0];
+            string bible = "Bibles/" + selection[0];
             string book = selection[1];
             string chapter = selection[2];
             string verse = selection[3];
@@ -98,11 +117,12 @@ namespace Wonder
             ///                 where v.Attribute("num")?.Value == verse        
             ///                  select v.Value).FirstOrDefault();       
 
-            return output; }
+            return output; 
+        }
 
         private static string[] chooseVerse()
         {
-            string Bible = "KJV.xml"; // CustomBible.xml     
+            string Bible = "Bibles/KJV.xml"; // CustomBible.xml     
             string Book = "John";
             string Chapter = "3";
             string Verse = "16";

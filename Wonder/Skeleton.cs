@@ -35,11 +35,16 @@ namespace Wonder
             lbVersesPreview.Items.Clear();
             updateSearch();
         }
+        List<string> Bibles()
+        {
+            List<string> versions = BB.getBibleVersions();
+            return versions;
+        }
         List<string> BibleBooks()
         {
             Selection[0] = cbxV.Text + ".xml"; // Version
 
-            List<string> books = BB.getBibleBooks(Selection);
+            List<string> books = BB.getBibleBooks(Selection[0]);
             return books;
         }
         List<string> BibleChapters()
@@ -61,9 +66,17 @@ namespace Wonder
         }
         private void updateSearch()
         {
+            List<string> Versions = Bibles();
             List<string> Bible = BibleBooks();
             List<string> Books = BibleChapters();
             List<string> Chapters = BibleChapterReading();
+
+            // Get bible versions
+            cbxV.Items.Clear();
+            foreach (var version in Versions)
+            {
+                cbxV.Items.Add(version);
+            }
 
             // Get book names
             cbxBB.Items.Clear();
@@ -89,6 +102,9 @@ namespace Wonder
                 cbxBV.Items.Add(verseNumber.ToString());
                 verseNumber++;
             }
+            if (!cbxBV.Focused) { cbxBV.SelectedIndex = 0; }
+            //if (!cbxBV.Items.Contains(cbxBV.SelectedItem.ToString())) { cbxBV.SelectedItem = "1"; }
+            
         }
         private void updateSearchVerse()
         {
@@ -137,8 +153,8 @@ namespace Wonder
         
         private void updatePreview(string input)
         {
-            input = input.Replace(";", "\n");
-            string reading = Selection[1] + " " + Selection[2] + ":" + Selection[3] + "\n\n" + input;
+            //if (input.Contains(";") { input = input.Replace(";", "\n"); }
+            string reading = Selection[1] + " " + Selection[2] + ":" + Selection[3] + "\n\n" + input + "\n";
             rtbPreview.Text = reading;
             rtbPreview.SelectAll();
             rtbPreview.SelectionAlignment = HorizontalAlignment.Center;
@@ -152,7 +168,7 @@ namespace Wonder
             int vNumber = 1;
             foreach(string v in input) 
             {
-                string verse = vNumber.ToString() + ": " + v;
+                string verse = "\n" + vNumber.ToString() + ": " + v + "\n";
                 lbVersesPreview.Items.Add(verse);
                 vNumber++;
             }
@@ -211,6 +227,7 @@ namespace Wonder
         private void cbxBC_SelectedIndexChanged(object sender, EventArgs e)
         {
             updateSearchVerse();
+            updateLBVerses(BibleChapterReading());
         }
 
         private void cbxBB_SelectedIndexChanged(object sender, EventArgs e)
@@ -222,9 +239,9 @@ namespace Wonder
         {
             if (e.KeyCode == Keys.Enter)
             {
-                updatePreview(BibleReading());
-                updateLBVerses(BibleChapterReading());
                 updateSearch();
+                updateLBVerses(BibleChapterReading());
+                updatePreview(BibleReading());
 
                 e.Handled = true;
                 e.SuppressKeyPress = true;

@@ -56,7 +56,6 @@
             // cbxV
             // 
             this.cbxV.BackColor = System.Drawing.Color.Teal;
-            this.cbxV.Enabled = false;
             this.cbxV.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cbxV.Font = new System.Drawing.Font("Microsoft Sans Serif", 24.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbxV.ForeColor = System.Drawing.SystemColors.Window;
@@ -90,6 +89,8 @@
             this.cbxBC.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
             this.cbxBC.ForeColor = System.Drawing.SystemColors.Window;
             this.cbxBC.FormattingEnabled = true;
+            this.cbxBC.Items.AddRange(new object[] {
+            "1"});
             this.cbxBC.Location = new System.Drawing.Point(495, 24);
             this.cbxBC.Name = "cbxBC";
             this.cbxBC.Size = new System.Drawing.Size(82, 46);
