@@ -18,7 +18,5 @@ namespace Wonder
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Skeleton());
         }
-
-        
     }
 }

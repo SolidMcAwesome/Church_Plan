@@ -18,16 +18,12 @@ namespace Wonder
             
         }
         public Projection projection;
-        GitHubUpdater Updates;
         Bible BB;
         public string[] Selection = { "", "", "", "" };
 
         private void Skeleton_Load(object sender, EventArgs e)
         {
-            //Check for updates
-            Updates = new GitHubUpdater();
-            Updates.CheckForUpdates();
-
+            MessageBox.Show("hi");
 
             projection = new Projection();
             BB = new Bible();
