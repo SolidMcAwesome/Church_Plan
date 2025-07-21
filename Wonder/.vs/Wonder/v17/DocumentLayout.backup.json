@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\T\\Documents\\Work\\WWW\\Church_Plan\\Wonder\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E81C9995-A347-4BD3-B5D7-2D8C8B188914}|Wonder.csproj|c:\\users\\t\\documents\\work\\www\\church_plan\\wonder\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E81C9995-A347-4BD3-B5D7-2D8C8B188914}|Wonder.csproj|solutionrelative:properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{88D8F2C3-D726-4337-B258-29E0BF13C6C3}|..\\Launcher\\Launcher.csproj|c:\\users\\t\\documents\\work\\www\\church_plan\\launcher\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -28,12 +32,12 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Skeleton.cs",
               "DocumentMoniker": "C:\\Users\\T\\Documents\\Work\\WWW\\Church_Plan\\Wonder\\Skeleton.cs",
               "RelativeDocumentMoniker": "Skeleton.cs",
-              "ToolTip": "C:\\Users\\T\\Documents\\Work\\WWW\\Church_Plan\\Wonder\\Skeleton.cs*",
-              "RelativeToolTip": "Skeleton.cs*",
+              "ToolTip": "C:\\Users\\T\\Documents\\Work\\WWW\\Church_Plan\\Wonder\\Skeleton.cs",
+              "RelativeToolTip": "Skeleton.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-03T01:14:56.795Z",
@@ -59,12 +63,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\T\\Documents\\Work\\WWW\\Church_Plan\\Wonder\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\T\\Documents\\Work\\WWW\\Church_Plan\\Wonder\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T21:15:43.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\T\\Documents\\Work\\WWW\\Church_Plan\\Launcher\\Program.cs",
               "RelativeDocumentMoniker": "..\\Launcher\\Program.cs",
               "ToolTip": "C:\\Users\\T\\Documents\\Work\\WWW\\Church_Plan\\Launcher\\Program.cs",
               "RelativeToolTip": "..\\Launcher\\Program.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAADMAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAAAqwEkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-21T20:22:30.245Z",
               "EditorCaption": ""
@@ -77,7 +94,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Launcher",
               "DocumentMoniker": "C:\\Users\\T\\Documents\\Work\\WWW\\Church_Plan\\Launcher\\Launcher.csproj",
               "RelativeDocumentMoniker": "..\\Launcher\\Launcher.csproj",
@@ -89,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "GitHubUpdater.cs",
               "DocumentMoniker": "C:\\Users\\T\\Documents\\Work\\WWW\\Church_Plan\\Wonder\\GitHubUpdater.cs",
               "RelativeDocumentMoniker": "GitHubUpdater.cs",

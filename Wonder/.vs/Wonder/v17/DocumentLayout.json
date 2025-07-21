@@ -3,22 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\T\\Documents\\Work\\WWW\\Church_Plan\\Wonder\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E81C9995-A347-4BD3-B5D7-2D8C8B188914}|Wonder.csproj|c:\\users\\t\\documents\\work\\www\\church_plan\\wonder\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E81C9995-A347-4BD3-B5D7-2D8C8B188914}|Wonder.csproj|solutionrelative:properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E81C9995-A347-4BD3-B5D7-2D8C8B188914}|Wonder.csproj|C:\\Users\\T\\Documents\\Work\\WWW\\Church_Plan\\Wonder\\skeleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E81C9995-A347-4BD3-B5D7-2D8C8B188914}|Wonder.csproj|solutionrelative:skeleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{88D8F2C3-D726-4337-B258-29E0BF13C6C3}|..\\Launcher\\Launcher.csproj|c:\\users\\t\\documents\\work\\www\\church_plan\\launcher\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E81C9995-A347-4BD3-B5D7-2D8C8B188914}|Wonder.csproj|C:\\Users\\T\\Documents\\Work\\WWW\\Church_Plan\\Wonder\\skeleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E81C9995-A347-4BD3-B5D7-2D8C8B188914}|Wonder.csproj|solutionrelative:skeleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E81C9995-A347-4BD3-B5D7-2D8C8B188914}|Wonder.csproj|c:\\users\\t\\documents\\work\\www\\church_plan\\wonder\\githubupdater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E81C9995-A347-4BD3-B5D7-2D8C8B188914}|Wonder.csproj|solutionrelative:githubupdater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88D8F2C3-D726-4337-B258-29E0BF13C6C3}|..\\Launcher\\Launcher.csproj|c:\\users\\t\\documents\\work\\www\\church_plan\\launcher\\launcher.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{E81C9995-A347-4BD3-B5D7-2D8C8B188914}|Wonder.csproj|c:\\users\\t\\documents\\work\\www\\church_plan\\wonder\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E81C9995-A347-4BD3-B5D7-2D8C8B188914}|Wonder.csproj|solutionrelative:properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,11 +25,39 @@
       "DocumentGroups": [
         {
           "DockedWidth": 138,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\T\\Documents\\Work\\WWW\\Church_Plan\\Wonder\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\T\\Documents\\Work\\WWW\\Church_Plan\\Wonder\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T21:15:43.079Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\T\\Documents\\Work\\WWW\\Church_Plan\\Launcher\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Launcher\\Program.cs",
+              "ToolTip": "C:\\Users\\T\\Documents\\Work\\WWW\\Church_Plan\\Launcher\\Program.cs",
+              "RelativeToolTip": "..\\Launcher\\Program.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAAAEkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T20:22:30.245Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Skeleton.cs",
               "DocumentMoniker": "C:\\Users\\T\\Documents\\Work\\WWW\\Church_Plan\\Wonder\\Skeleton.cs",
               "RelativeDocumentMoniker": "Skeleton.cs",
@@ -59,60 +84,22 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\Users\\T\\Documents\\Work\\WWW\\Church_Plan\\Wonder\\Properties\\AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "Properties\\AssemblyInfo.cs",
-              "ToolTip": "C:\\Users\\T\\Documents\\Work\\WWW\\Church_Plan\\Wonder\\Properties\\AssemblyInfo.cs",
-              "RelativeToolTip": "Properties\\AssemblyInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T21:15:43.079Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\T\\Documents\\Work\\WWW\\Church_Plan\\Launcher\\Program.cs",
-              "RelativeDocumentMoniker": "..\\Launcher\\Program.cs",
-              "ToolTip": "C:\\Users\\T\\Documents\\Work\\WWW\\Church_Plan\\Launcher\\Program.cs",
-              "RelativeToolTip": "..\\Launcher\\Program.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAqwEkAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T20:22:30.245Z",
-              "EditorCaption": ""
             }
           ]
         },
         {
           "DockedWidth": 138,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Launcher",
-              "DocumentMoniker": "C:\\Users\\T\\Documents\\Work\\WWW\\Church_Plan\\Launcher\\Launcher.csproj",
-              "RelativeDocumentMoniker": "..\\Launcher\\Launcher.csproj",
-              "ToolTip": "C:\\Users\\T\\Documents\\Work\\WWW\\Church_Plan\\Launcher\\Launcher.csproj",
-              "RelativeToolTip": "..\\Launcher\\Launcher.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-21T20:51:12.277Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "GitHubUpdater.cs",
               "DocumentMoniker": "C:\\Users\\T\\Documents\\Work\\WWW\\Church_Plan\\Wonder\\GitHubUpdater.cs",
               "RelativeDocumentMoniker": "GitHubUpdater.cs",
               "ToolTip": "C:\\Users\\T\\Documents\\Work\\WWW\\Church_Plan\\Wonder\\GitHubUpdater.cs",
               "RelativeToolTip": "GitHubUpdater.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwCcAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-03T03:20:04.575Z",
               "EditorCaption": ""
