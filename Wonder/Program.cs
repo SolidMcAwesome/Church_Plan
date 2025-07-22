@@ -16,7 +16,7 @@ namespace Wonder
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Skeleton());
+            Application.Run(new Welcome());
         }
     }
 }

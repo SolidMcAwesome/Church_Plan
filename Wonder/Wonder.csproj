@@ -81,7 +81,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bible.cs" />
-    <Compile Include="GitHubUpdater.cs" />
     <Compile Include="Projection.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,6 +95,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Welcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Welcome.Designer.cs">
+      <DependentUpon>Welcome.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Projection.resx">
       <DependentUpon>Projection.cs</DependentUpon>
     </EmbeddedResource>
@@ -112,6 +117,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Welcome.resx">
+      <DependentUpon>Welcome.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="bin\Debug\Wonder.exe.config" />
     <None Include="bin\Release\Wonder.exe.config" />
     <None Include="packages.config" />

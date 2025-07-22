@@ -12,7 +12,7 @@ public class GitHubUpdater
 {
     private string owner = "SolidMcAwesome"; // Replace with your GitHub username
     private string repo = "Church_Plan"; // Replace with your repository name
-    private string applicationExeName = "Wonder.exe";
+    //private string applicationExeName = "Wonder.exe";
     private string downloadFileName = "new_release.zip";
 
     public async void CheckForUpdates()

@@ -10,3 +10,4 @@ C:\Users\T\Documents\Work\WWW\Church_Plan\Wonder\obj\Debug\Wonder.csproj.CoreCom
 C:\Users\T\Documents\Work\WWW\Church_Plan\Wonder\obj\Debug\Wonder.csproj.Up2Date
 C:\Users\T\Documents\Work\WWW\Church_Plan\Wonder\obj\Debug\Wonder.exe
 C:\Users\T\Documents\Work\WWW\Church_Plan\Wonder\obj\Debug\Wonder.pdb
+C:\Users\T\Documents\Work\WWW\Church_Plan\Wonder\obj\Debug\Wonder.Welcome.resources
