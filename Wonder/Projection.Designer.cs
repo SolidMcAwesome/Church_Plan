@@ -31,6 +31,10 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Projection));
             this.rtbOutput = new System.Windows.Forms.RichTextBox();
             this.btnExit = new System.Windows.Forms.Button();
+            this.pbxCensor = new System.Windows.Forms.PictureBox();
+            this.pbxTitle = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxCensor)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxTitle)).BeginInit();
             this.SuspendLayout();
             // 
             // rtbOutput
@@ -62,13 +66,42 @@
             this.btnExit.UseVisualStyleBackColor = false;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
+            // pbxCensor
+            // 
+            this.pbxCensor.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pbxCensor.BackColor = System.Drawing.SystemColors.MenuText;
+            this.pbxCensor.Location = new System.Drawing.Point(-3, -2);
+            this.pbxCensor.Name = "pbxCensor";
+            this.pbxCensor.Size = new System.Drawing.Size(1480, 887);
+            this.pbxCensor.TabIndex = 2;
+            this.pbxCensor.TabStop = false;
+            this.pbxCensor.Visible = false;
+            // 
+            // pbxTitle
+            // 
+            this.pbxTitle.BackColor = System.Drawing.SystemColors.MenuText;
+            this.pbxTitle.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.pbxTitle.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pbxTitle.Image = global::Wonder.Properties.Resources.WeddingFam;
+            this.pbxTitle.Location = new System.Drawing.Point(0, 0);
+            this.pbxTitle.Name = "pbxTitle";
+            this.pbxTitle.Size = new System.Drawing.Size(1471, 880);
+            this.pbxTitle.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbxTitle.TabIndex = 3;
+            this.pbxTitle.TabStop = false;
+            this.pbxTitle.Visible = false;
+            // 
             // Projection
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkCyan;
-            this.ClientSize = new System.Drawing.Size(1479, 888);
+            this.ClientSize = new System.Drawing.Size(1471, 880);
             this.ControlBox = false;
+            this.Controls.Add(this.pbxTitle);
+            this.Controls.Add(this.pbxCensor);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.rtbOutput);
             this.ForeColor = System.Drawing.SystemColors.Window;
@@ -80,6 +113,8 @@
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Load += new System.EventHandler(this.Projection_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pbxCensor)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxTitle)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -88,5 +123,7 @@
 
         private System.Windows.Forms.RichTextBox rtbOutput;
         private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.PictureBox pbxCensor;
+        private System.Windows.Forms.PictureBox pbxTitle;
     }
 }

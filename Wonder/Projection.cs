@@ -63,8 +63,16 @@ namespace Wonder
 
         private void btnExit_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Hide();
         }
 
+        public void Censor()
+        {
+            pbxCensor.Visible = !pbxCensor.Visible;
+        }
+        public void Title()
+        {
+            pbxTitle.Visible = !pbxTitle.Visible;
+        }
     }
 }

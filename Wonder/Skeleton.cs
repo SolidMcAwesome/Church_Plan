@@ -249,5 +249,20 @@ namespace Wonder
                 e.SuppressKeyPress = true;
             }
         }
+
+        private void Skeleton_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            projection.Close();
+        }
+
+        private void btnCensor_Click(object sender, EventArgs e)
+        {
+            projection.Censor();
+        }
+
+        private void btnTitleScreen_Click(object sender, EventArgs e)
+        {
+            projection.Title();
+        }
     }
 }

@@ -160,6 +160,7 @@
     <Content Include="bin\Release\Wonder.exe" />
     <Content Include="bin\Release\Wonder.pdb" />
     <Content Include="Misc\monkaw.ico" />
+    <None Include="Misc\WeddingFam.jpg" />
     <Content Include="monkaw.ico" />
     <Content Include="packages\Newtonsoft.Json.13.0.3\lib\net20\Newtonsoft.Json.dll" />
     <Content Include="packages\Newtonsoft.Json.13.0.3\lib\net20\Newtonsoft.Json.xml" />
