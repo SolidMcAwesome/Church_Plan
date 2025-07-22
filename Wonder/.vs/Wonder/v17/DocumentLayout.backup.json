@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\T\\Documents\\Work\\WWW\\Church_Plan\\Wonder\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E81C9995-A347-4BD3-B5D7-2D8C8B188914}|Wonder.csproj|c:\\users\\t\\documents\\work\\www\\church_plan\\wonder\\welcome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E81C9995-A347-4BD3-B5D7-2D8C8B188914}|Wonder.csproj|solutionrelative:welcome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E81C9995-A347-4BD3-B5D7-2D8C8B188914}|Wonder.csproj|C:\\Users\\T\\Documents\\Work\\WWW\\Church_Plan\\Wonder\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E81C9995-A347-4BD3-B5D7-2D8C8B188914}|Wonder.csproj|solutionrelative:properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E81C9995-A347-4BD3-B5D7-2D8C8B188914}|Wonder.csproj|c:\\users\\t\\documents\\work\\www\\church_plan\\wonder\\welcome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E81C9995-A347-4BD3-B5D7-2D8C8B188914}|Wonder.csproj|solutionrelative:welcome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E81C9995-A347-4BD3-B5D7-2D8C8B188914}|Wonder.csproj|c:\\users\\t\\documents\\work\\www\\church_plan\\wonder\\welcome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E81C9995-A347-4BD3-B5D7-2D8C8B188914}|Wonder.csproj|solutionrelative:welcome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E81C9995-A347-4BD3-B5D7-2D8C8B188914}|Wonder.csproj|C:\\Users\\T\\Documents\\Work\\WWW\\Church_Plan\\Wonder\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,10 +26,6 @@
       "RelativeMoniker": "D:0:0:{E81C9995-A347-4BD3-B5D7-2D8C8B188914}|Wonder.csproj|solutionrelative:skeleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E81C9995-A347-4BD3-B5D7-2D8C8B188914}|Wonder.csproj|C:\\Users\\T\\Documents\\Work\\WWW\\Church_Plan\\Wonder\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E81C9995-A347-4BD3-B5D7-2D8C8B188914}|Wonder.csproj|solutionrelative:properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E81C9995-A347-4BD3-B5D7-2D8C8B188914}|Wonder.csproj|C:\\Users\\T\\Documents\\Work\\WWW\\Church_Plan\\Wonder\\skeleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E81C9995-A347-4BD3-B5D7-2D8C8B188914}|Wonder.csproj|solutionrelative:skeleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
@@ -37,24 +37,25 @@
       "DocumentGroups": [
         {
           "DockedWidth": 138,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "C:\\Users\\T\\Documents\\Work\\WWW\\Church_Plan\\Wonder\\Properties\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "Properties\\AssemblyInfo.cs",
               "ToolTip": "C:\\Users\\T\\Documents\\Work\\WWW\\Church_Plan\\Wonder\\Properties\\AssemblyInfo.cs",
               "RelativeToolTip": "Properties\\AssemblyInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-21T21:15:43.079Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\T\\Documents\\Work\\WWW\\Church_Plan\\Launcher\\Program.cs",
               "RelativeDocumentMoniker": "..\\Launcher\\Program.cs",
@@ -68,7 +69,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Skeleton.cs",
               "DocumentMoniker": "C:\\Users\\T\\Documents\\Work\\WWW\\Church_Plan\\Wonder\\Skeleton.cs",
               "RelativeDocumentMoniker": "Skeleton.cs",
@@ -106,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Welcome.cs [Design]",
               "DocumentMoniker": "C:\\Users\\T\\Documents\\Work\\WWW\\Church_Plan\\Wonder\\Welcome.cs",
               "RelativeDocumentMoniker": "Welcome.cs",
@@ -118,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\T\\Documents\\Work\\WWW\\Church_Plan\\Wonder\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",

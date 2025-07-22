@@ -5,9 +5,9 @@ C:\Users\T\Documents\Work\WWW\Church_Plan\Wonder\obj\Debug\Wonder.csproj.Assembl
 C:\Users\T\Documents\Work\WWW\Church_Plan\Wonder\obj\Debug\Wonder.Projection.resources
 C:\Users\T\Documents\Work\WWW\Church_Plan\Wonder\obj\Debug\Wonder.Skeleton.resources
 C:\Users\T\Documents\Work\WWW\Church_Plan\Wonder\obj\Debug\Wonder.Properties.Resources.resources
+C:\Users\T\Documents\Work\WWW\Church_Plan\Wonder\obj\Debug\Wonder.Welcome.resources
 C:\Users\T\Documents\Work\WWW\Church_Plan\Wonder\obj\Debug\Wonder.csproj.GenerateResource.cache
 C:\Users\T\Documents\Work\WWW\Church_Plan\Wonder\obj\Debug\Wonder.csproj.CoreCompileInputs.cache
 C:\Users\T\Documents\Work\WWW\Church_Plan\Wonder\obj\Debug\Wonder.csproj.Up2Date
 C:\Users\T\Documents\Work\WWW\Church_Plan\Wonder\obj\Debug\Wonder.exe
 C:\Users\T\Documents\Work\WWW\Church_Plan\Wonder\obj\Debug\Wonder.pdb
-C:\Users\T\Documents\Work\WWW\Church_Plan\Wonder\obj\Debug\Wonder.Welcome.resources
