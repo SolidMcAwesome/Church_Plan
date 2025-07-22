@@ -1,0 +1,6 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Wonder/bin/Debug/Launcher.exe
+/Wonder/bin/Release/Launcher.exe
