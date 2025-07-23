@@ -7,6 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
+using ClosedXML.Excel;
+using DocumentFormat.OpenXml.Wordprocessing;
 
 namespace Wonder
 {
@@ -15,17 +18,27 @@ namespace Wonder
         public Skeleton()
         {
             InitializeComponent();
-            
-        }
+        }        
+
         public Projection projection;
+        private bool live;
+
         Bible BB;
         public string[] Selection = { "", "", "", "" };
 
+        Song SL;
+        public Dictionary<string, List<string>> SongLibrary;
+        public Dictionary<string, List<string>> PlaylistCatelog;
+
         private void Skeleton_Load(object sender, EventArgs e)
         {
-            MessageBox.Show("hi");
+            //MessageBox.Show("hi");
 
+            //projection
             projection = new Projection();
+            live = true;
+
+            //bible
             BB = new Bible();
 
             Selection[0] = cbxV.Text + ".xml"; // Version
@@ -36,6 +49,12 @@ namespace Wonder
             rtbPreview.Text = "";
             lbVersesPreview.Items.Clear();
             updateSearch();
+
+            // songs
+            SL = new Song();
+            SongLibrary = SL.SongLibrary;
+            PlaylistCatelog = SL.Playlists;
+            Songs();
         }
         List<string> Bibles()
         {
@@ -147,22 +166,31 @@ namespace Wonder
             string reading =  BB.getReading(Selection);
             return reading;
         }
-        
-        
-        
-        
-        
-        
+
+
+
+
+
+
         private void updatePreview(string input)
         {
             //if (input.Contains(";") { input = input.Replace(";", "\n"); }
             string reading = Selection[1] + " " + Selection[2] + ":" + Selection[3] + "\n\n" + input + "\n";
+
             rtbPreview.Text = reading;
             rtbPreview.SelectAll();
             rtbPreview.SelectionAlignment = HorizontalAlignment.Center;
             AdjustFontSize();
 
             projection.updateText(reading);
+
+        }
+        private void updatePreviewS(string input)
+        {
+            rtbPreview.Text = input;
+            rtbPreview.SelectAll();
+            rtbPreview.SelectionAlignment = HorizontalAlignment.Center;
+            AdjustFontSize();
         }
         private void updateLBVerses(List<string> input)
         {
@@ -183,14 +211,14 @@ namespace Wonder
 
             if (rtb.Text.Length > 0)
             {
-                rtb.Font = new Font(rtb.Font.FontFamily, fontSize);
+                rtb.Font = new System.Drawing.Font(rtb.Font.FontFamily, fontSize);
                 SizeF textSize = rtb.GetPreferredSize(new Size(rtb.Width, int.MaxValue));
 
                 int safetyC = 0;
                 while ((textSize.Height < rtb.Height) && (safetyC < 10) && (fontSize < originalSize))
                 {
                     fontSize += 5f;
-                    rtb.Font = new Font(rtb.Font.FontFamily, fontSize);
+                    rtb.Font = new System.Drawing.Font(rtb.Font.FontFamily, fontSize);
                     textSize = rtb.GetPreferredSize(new Size(rtb.Width, int.MaxValue));
                     safetyC++;
                 }
@@ -199,7 +227,7 @@ namespace Wonder
                 {
                     fontSize -= 5f;
                     if (fontSize < 1) break;
-                    rtb.Font = new Font(rtb.Font.FontFamily, fontSize);
+                    rtb.Font = new System.Drawing.Font(rtb.Font.FontFamily, fontSize);
                     textSize = rtb.GetPreferredSize(new Size(rtb.Width, int.MaxValue));
                     safetyC++;
                 }
@@ -215,8 +243,25 @@ namespace Wonder
 
         private void btnProject_Click(object sender, EventArgs e)
         {
-            projection.Show();
-            projection.WindowState = FormWindowState.Maximized;
+            if (Application.OpenForms.OfType<Projection>().FirstOrDefault() == null)
+            {
+                projection.Show();
+                projection.WindowState = FormWindowState.Maximized;
+                btnProject.FlatStyle = FlatStyle.Flat;
+                btnProject.BackColor = System.Drawing.Color.DarkSlateBlue;
+            }
+            else if (projection.Visible)
+            {
+                projection.Visible = false;
+                btnProject.FlatStyle = FlatStyle.Popup;
+                btnProject.BackColor = System.Drawing.Color.Teal;
+            }
+            else
+            {
+                projection.Visible = true;
+                btnProject.FlatStyle = FlatStyle.Flat;
+                btnProject.BackColor = System.Drawing.Color.DarkSlateBlue;
+            }
         }
 
         private void lbVersesPreview_SelectedIndexChanged(object sender, EventArgs e)
@@ -257,12 +302,253 @@ namespace Wonder
 
         private void btnCensor_Click(object sender, EventArgs e)
         {
-            projection.Censor();
+            if (!projection.CensorVisibility())
+            {
+                projection.Censor();
+                btnCensor.FlatStyle = FlatStyle.Flat;
+                btnCensor.BackColor = System.Drawing.Color.DarkSlateBlue;
+            }
+            else
+            {
+                projection.Censor();
+                btnCensor.FlatStyle = FlatStyle.Popup;
+                btnCensor.BackColor = System.Drawing.Color.Teal;
+            }
         }
 
         private void btnTitleScreen_Click(object sender, EventArgs e)
         {
-            projection.Title();
+            
+            if (!projection.TitleVisibility())
+            {
+                projection.Title();
+                btnTitleScreen.FlatStyle = FlatStyle.Flat;
+                btnTitleScreen.BackColor = System.Drawing.Color.DarkSlateBlue;
+            }
+            else
+            {
+                projection.Title();
+                btnTitleScreen.FlatStyle = FlatStyle.Popup;
+                btnTitleScreen.BackColor = System.Drawing.Color.Teal;
+            }
+        }
+
+        private void lbxLibrary_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            SelectedSong(lbxLibrary.SelectedItem.ToString());
+        }
+        private void ResetLyricsText()
+        {
+            btnL1.Text = "";
+            btnL2.Text = "";
+            btnL3.Text = "";
+            btnL4.Text = "";
+            btnL5.Text = "";
+            btnL6.Text = "";
+            btnL7.Text = "";
+            btnL8.Text = "";
+            btnL9.Text = "";
+            btnL10.Text = "";
+        }
+
+
+        private void updateSongDisplay(string display)
+        {
+            if (live)
+            {
+                updatePreviewS(display);
+                projection.updateText(display);
+            }
+            else
+            {
+                if (display == rtbPreview.Text)
+                {
+                    projection.updateText(display);
+                }
+                else
+                {
+                    updatePreviewS(display);
+                }
+            }
+        }
+        private void btnL1_Click(object sender, EventArgs e)
+        {
+            string display = btnL1.Text;
+            updateSongDisplay(display);
+        }
+        private void btnL2_Click(object sender, EventArgs e)
+        {
+            string display = btnL2.Text;
+            updateSongDisplay(display);
+        }
+        private void btnL3_Click(object sender, EventArgs e)
+        {
+            string display = btnL3.Text;
+            updateSongDisplay(display);
+        }
+        private void btnL4_Click(object sender, EventArgs e)
+        {
+            string display = btnL4.Text;
+            updateSongDisplay(display);
+        }
+        private void btnL5_Click(object sender, EventArgs e)
+        {
+            string display = btnL5.Text;
+            updateSongDisplay(display);
+        }
+        private void btnL6_Click(object sender, EventArgs e)
+        {
+            string display = btnL6.Text;
+            updateSongDisplay(display);
+        }
+        private void btnL7_Click(object sender, EventArgs e)
+        {
+            string display = btnL7.Text;
+            updateSongDisplay(display);
+        }
+        private void btnL8_Click(object sender, EventArgs e)
+        {
+            string display = btnL8.Text;
+            updateSongDisplay(display);
+        }
+        private void btnL9_Click(object sender, EventArgs e)
+        {
+            string display = btnL9.Text;
+            updateSongDisplay(display);
+        }
+        private void btnL10_Click(object sender, EventArgs e)
+        {
+            string display = btnL10.Text;
+            updateSongDisplay(display);
+        }
+
+        /// change tab
+        private void tbcWonder_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            switch(tbcWonder.SelectedTab.Text)
+            {
+                case "Bible":
+                    pnlPreview.Visible = true;
+                    btnLive.Visible = false;
+                    liveChange(true);
+                    break;
+                case "Songs":
+                    pnlPreview.Visible = true;
+                    btnLive.Visible = true;
+                    liveChange(false);
+                    break;
+                case "Library":
+                    pnlPreview.Visible = false;
+                    break;
+            }
+        }
+        private void Songs()
+        {
+            //populate display
+            lbxLibrary.Items.Clear();
+            ResetLyricsText();
+            foreach (var songkey in SongLibrary.Keys)
+            {
+                lbxLibrary.Items.Add(songkey);
+            }
+
+            Playlists();
+        }
+        private void Playlists()
+        {
+            cbxPlaylists.Items.Clear();
+            lbxPlaylistSongs.Items.Clear();
+
+            foreach (var playlist in PlaylistCatelog)
+            {
+                cbxPlaylists.Items.Add(playlist.Key.ToString());
+            }
+            cbxPlaylists.SelectedIndex = 0;
+        }
+        private void liveChange(bool state)
+        {
+            live = state;
+            if (live)
+            {
+                btnLive.FlatStyle = FlatStyle.Popup;
+                btnLive.BackColor = System.Drawing.Color.Red;
+            }
+            else
+            {
+                btnLive.FlatStyle = FlatStyle.Flat;
+                btnLive.BackColor = System.Drawing.Color.Teal;
+            }
+        }
+
+        private void btnLive_Click(object sender, EventArgs e)
+        {
+            if (live)
+            {
+                liveChange(false);
+            }
+            else
+            {
+                liveChange(true);
+            }
+        }
+
+        private void cbxPlaylists_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            lbxPlaylistSongs.Items.Clear();
+            foreach(var song in PlaylistCatelog[cbxPlaylists.Text])
+            {
+                lbxPlaylistSongs.Items.Add(song);
+            }
+        }
+
+        private void lbxPlaylistSongs_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (lbxPlaylistSongs.SelectedIndex != -1)
+            {
+                SelectedSong(lbxPlaylistSongs.SelectedItem.ToString());
+            }
+        }
+        private void SelectedSong(string song)
+        {
+            int btnNum = 1;
+            ResetLyricsText();
+            foreach (string lyric in SongLibrary[song])
+            {
+                switch (btnNum)
+                {
+                    case 1:
+                        btnL1.Text = lyric;
+                        break;
+                    case 2:
+                        btnL2.Text = lyric;
+                        break;
+                    case 3:
+                        btnL3.Text = lyric;
+                        break;
+                    case 4:
+                        btnL4.Text = lyric;
+                        break;
+                    case 5:
+                        btnL5.Text = lyric;
+                        break;
+                    case 6:
+                        btnL6.Text = lyric;
+                        break;
+                    case 7:
+                        btnL7.Text = lyric;
+                        break;
+                    case 8:
+                        btnL8.Text = lyric;
+                        break;
+                    case 9:
+                        btnL9.Text = lyric;
+                        break;
+                    case 10:
+                        btnL10.Text = lyric;
+                        break;
+                }
+                btnNum++;
+            }
         }
     }
 }
