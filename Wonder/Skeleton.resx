@@ -151,6 +151,40 @@ But you, always give me what I needed (come on)
 Oh-oh, oh-oh, oh-oh, oh-oh (yes you do, you do)
 Oh-oh, oh-oh, oh-oh, oh-oh (oh)</value>
   </data>
+  <data name="richTextBox2.Text" xml:space="preserve">
+    <value>It felt like you didn't come through for me
+When you didn't do exactly what I wanted
+But you, always give me what I needed
+Foolish of me to box you in
+The shape of my broken heart didn't leave you much room
+But you, always give me what I needed
+Oh-oh, oh-oh, whoa-oh</value>
+  </data>
+  <data name="richTextBox3.Text" xml:space="preserve">
+    <value>I don't wanna love you for who I made you to be, up in my head
+But I wanna love you, for exactly who you are and nothing less
+'Cause when I try to piece together my own version, you're always better
+But trust is hard with a broken heart
+But with you, I finally learned</value>
+  </data>
+  <data name="richTextBox4.Text" xml:space="preserve">
+    <value>It felt like you didn't come through for me
+When you didn't do exactly what I wanted
+But you, always give me what I needed
+Foolish of me to box you in
+The shape of my broken heart didn't leave you much room
+But you, always give me what I needed (come on)
+Oh-oh, oh-oh, oh-oh, oh-oh (yes you do, you do)
+Oh-oh, oh-oh, oh-oh, oh-oh (oh)</value>
+  </data>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>I wanna thank You for kindly taking away the thing I had
+'Cause it could've hurt me, protection don't feel good in the moment
+But looking back, wasn't trying to be disrespectful
+You know I'm stubborn, I never would've let go
+But trust is hard for the broken heart
+But with you, I finally learned</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
