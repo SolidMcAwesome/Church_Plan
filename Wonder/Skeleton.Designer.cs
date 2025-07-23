@@ -49,7 +49,7 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.tbpSongs = new System.Windows.Forms.TabPage();
             this.cbxPlaylists = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.cbxSongSearch = new System.Windows.Forms.ComboBox();
             this.lbxPlaylistSongs = new System.Windows.Forms.ListBox();
             this.lbxLibrary = new System.Windows.Forms.ListBox();
             this.button14 = new System.Windows.Forms.Button();
@@ -359,7 +359,7 @@
             // 
             this.tbpSongs.BackColor = System.Drawing.Color.DarkCyan;
             this.tbpSongs.Controls.Add(this.cbxPlaylists);
-            this.tbpSongs.Controls.Add(this.comboBox3);
+            this.tbpSongs.Controls.Add(this.cbxSongSearch);
             this.tbpSongs.Controls.Add(this.lbxPlaylistSongs);
             this.tbpSongs.Controls.Add(this.lbxLibrary);
             this.tbpSongs.Controls.Add(this.button14);
@@ -386,18 +386,19 @@
             this.cbxPlaylists.Text = "Sunday";
             this.cbxPlaylists.SelectedIndexChanged += new System.EventHandler(this.cbxPlaylists_SelectedIndexChanged);
             // 
-            // comboBox3
+            // cbxSongSearch
             // 
-            this.comboBox3.BackColor = System.Drawing.Color.Teal;
-            this.comboBox3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.comboBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox3.ForeColor = System.Drawing.SystemColors.Window;
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(33, 23);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(320, 46);
-            this.comboBox3.TabIndex = 25;
-            this.comboBox3.Text = "What I Needed";
+            this.cbxSongSearch.BackColor = System.Drawing.Color.Teal;
+            this.cbxSongSearch.Enabled = false;
+            this.cbxSongSearch.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.cbxSongSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 24.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbxSongSearch.ForeColor = System.Drawing.SystemColors.Window;
+            this.cbxSongSearch.FormattingEnabled = true;
+            this.cbxSongSearch.Location = new System.Drawing.Point(33, 23);
+            this.cbxSongSearch.Name = "cbxSongSearch";
+            this.cbxSongSearch.Size = new System.Drawing.Size(320, 46);
+            this.cbxSongSearch.TabIndex = 25;
+            this.cbxSongSearch.Text = "What I Needed";
             // 
             // lbxPlaylistSongs
             // 
@@ -444,6 +445,7 @@
             // button14
             // 
             this.button14.BackColor = System.Drawing.Color.Teal;
+            this.button14.Enabled = false;
             this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button14.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
             this.button14.ForeColor = System.Drawing.SystemColors.Window;
@@ -896,6 +898,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Skeleton";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Wonder";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Skeleton_FormClosing);
             this.Load += new System.EventHandler(this.Skeleton_Load);
@@ -939,7 +942,7 @@
         private System.Windows.Forms.Button button14;
         private System.Windows.Forms.ListBox lbxPlaylistSongs;
         private System.Windows.Forms.ListBox lbxLibrary;
-        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.ComboBox cbxSongSearch;
         private System.Windows.Forms.ComboBox cbxPlaylists;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel3;
         private System.Windows.Forms.RichTextBox richTextBox6;

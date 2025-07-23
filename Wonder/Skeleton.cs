@@ -336,6 +336,7 @@ namespace Wonder
         private void lbxLibrary_SelectedIndexChanged(object sender, EventArgs e)
         {
             SelectedSong(lbxLibrary.SelectedItem.ToString());
+            cbxSongSearch.Text = lbxLibrary.SelectedItem.ToString();
         }
         private void ResetLyricsText()
         {
