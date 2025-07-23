@@ -389,6 +389,7 @@
             // comboBox3
             // 
             this.comboBox3.BackColor = System.Drawing.Color.Teal;
+            this.comboBox3.Enabled = false;
             this.comboBox3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.comboBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox3.ForeColor = System.Drawing.SystemColors.Window;
@@ -444,6 +445,7 @@
             // button14
             // 
             this.button14.BackColor = System.Drawing.Color.Teal;
+            this.button14.Enabled = false;
             this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button14.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
             this.button14.ForeColor = System.Drawing.SystemColors.Window;
@@ -896,6 +898,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Skeleton";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Wonder";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Skeleton_FormClosing);
             this.Load += new System.EventHandler(this.Skeleton_Load);
