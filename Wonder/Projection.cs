@@ -69,10 +69,20 @@ namespace Wonder
         public void Censor()
         {
             pbxCensor.Visible = !pbxCensor.Visible;
+            pbxCensor.BringToFront();
+        }
+        public bool CensorVisibility()
+        {
+            return pbxCensor.Visible;
         }
         public void Title()
         {
             pbxTitle.Visible = !pbxTitle.Visible;
+            
+        }
+        public bool TitleVisibility()
+        {
+            return pbxTitle.Visible;
         }
     }
 }
