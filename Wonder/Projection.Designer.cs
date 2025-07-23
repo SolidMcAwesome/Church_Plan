@@ -68,13 +68,11 @@
             // 
             // pbxCensor
             // 
-            this.pbxCensor.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.pbxCensor.BackColor = System.Drawing.SystemColors.MenuText;
-            this.pbxCensor.Location = new System.Drawing.Point(-3, -2);
+            this.pbxCensor.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pbxCensor.Location = new System.Drawing.Point(0, 0);
             this.pbxCensor.Name = "pbxCensor";
-            this.pbxCensor.Size = new System.Drawing.Size(1480, 887);
+            this.pbxCensor.Size = new System.Drawing.Size(1467, 876);
             this.pbxCensor.TabIndex = 2;
             this.pbxCensor.TabStop = false;
             this.pbxCensor.Visible = false;
@@ -87,7 +85,7 @@
             this.pbxTitle.Image = global::Wonder.Properties.Resources.WeddingFam;
             this.pbxTitle.Location = new System.Drawing.Point(0, 0);
             this.pbxTitle.Name = "pbxTitle";
-            this.pbxTitle.Size = new System.Drawing.Size(1471, 880);
+            this.pbxTitle.Size = new System.Drawing.Size(1467, 876);
             this.pbxTitle.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbxTitle.TabIndex = 3;
             this.pbxTitle.TabStop = false;
@@ -98,10 +96,10 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkCyan;
-            this.ClientSize = new System.Drawing.Size(1471, 880);
+            this.ClientSize = new System.Drawing.Size(1467, 876);
             this.ControlBox = false;
-            this.Controls.Add(this.pbxTitle);
             this.Controls.Add(this.pbxCensor);
+            this.Controls.Add(this.pbxTitle);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.rtbOutput);
             this.ForeColor = System.Drawing.SystemColors.Window;
