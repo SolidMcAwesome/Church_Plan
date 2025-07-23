@@ -39,46 +39,37 @@
             this.lbVersesPreview = new System.Windows.Forms.ListBox();
             this.tbcWonder = new System.Windows.Forms.TabControl();
             this.tbpBible = new System.Windows.Forms.TabPage();
-            this.tbpSongs = new System.Windows.Forms.TabPage();
-            this.btnCensor = new System.Windows.Forms.Button();
-            this.btnTitleScreen = new System.Windows.Forms.Button();
-            this.tbpLibrary = new System.Windows.Forms.TabPage();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.richTextBox2 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox3 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox4 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox5 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox7 = new System.Windows.Forms.RichTextBox();
-            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.richTextBox9 = new System.Windows.Forms.RichTextBox();
-            this.button14 = new System.Windows.Forms.Button();
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.listBox2 = new System.Windows.Forms.ListBox();
-            this.button7 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.tbpSongs = new System.Windows.Forms.TabPage();
+            this.cbxPlaylists = new System.Windows.Forms.ComboBox();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
-            this.button8 = new System.Windows.Forms.Button();
-            this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.listBox3 = new System.Windows.Forms.ListBox();
-            this.listBox4 = new System.Windows.Forms.ListBox();
+            this.lbxPlaylistSongs = new System.Windows.Forms.ListBox();
+            this.lbxLibrary = new System.Windows.Forms.ListBox();
+            this.button14 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.btnL1 = new System.Windows.Forms.Button();
+            this.btnL2 = new System.Windows.Forms.Button();
+            this.btnL3 = new System.Windows.Forms.Button();
+            this.btnL4 = new System.Windows.Forms.Button();
+            this.btnL5 = new System.Windows.Forms.Button();
+            this.btnL6 = new System.Windows.Forms.Button();
+            this.btnL7 = new System.Windows.Forms.Button();
+            this.btnL8 = new System.Windows.Forms.Button();
+            this.btnL9 = new System.Windows.Forms.Button();
+            this.btnL10 = new System.Windows.Forms.Button();
+            this.tbpLibrary = new System.Windows.Forms.TabPage();
+            this.label2 = new System.Windows.Forms.Label();
+            this.button19 = new System.Windows.Forms.Button();
+            this.richTextBox14 = new System.Windows.Forms.RichTextBox();
             this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
             this.richTextBox6 = new System.Windows.Forms.RichTextBox();
             this.richTextBox8 = new System.Windows.Forms.RichTextBox();
@@ -86,24 +77,22 @@
             this.richTextBox11 = new System.Windows.Forms.RichTextBox();
             this.richTextBox12 = new System.Windows.Forms.RichTextBox();
             this.richTextBox13 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox14 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox15 = new System.Windows.Forms.RichTextBox();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox16 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox17 = new System.Windows.Forms.RichTextBox();
-            this.richTextBox18 = new System.Windows.Forms.RichTextBox();
-            this.button19 = new System.Windows.Forms.Button();
+            this.listBox4 = new System.Windows.Forms.ListBox();
+            this.listBox3 = new System.Windows.Forms.ListBox();
+            this.button13 = new System.Windows.Forms.Button();
+            this.button12 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
+            this.btnTitleScreen = new System.Windows.Forms.Button();
+            this.btnCensor = new System.Windows.Forms.Button();
+            this.btnLive = new System.Windows.Forms.Button();
+            this.pnlPreview = new System.Windows.Forms.Panel();
             this.tbcWonder.SuspendLayout();
             this.tbpBible.SuspendLayout();
             this.tbpSongs.SuspendLayout();
-            this.tbpLibrary.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
-            this.flowLayoutPanel2.SuspendLayout();
+            this.tbpLibrary.SuspendLayout();
             this.flowLayoutPanel3.SuspendLayout();
+            this.pnlPreview.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnUpdateVerse
@@ -182,18 +171,16 @@
             // 
             // rtbPreview
             // 
-            this.rtbPreview.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
             this.rtbPreview.BackColor = System.Drawing.Color.Teal;
             this.rtbPreview.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.rtbPreview.Cursor = System.Windows.Forms.Cursors.Default;
             this.rtbPreview.Font = new System.Drawing.Font("Arial Narrow", 50.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rtbPreview.ForeColor = System.Drawing.SystemColors.Window;
-            this.rtbPreview.Location = new System.Drawing.Point(810, 7);
+            this.rtbPreview.Location = new System.Drawing.Point(3, 4);
             this.rtbPreview.Name = "rtbPreview";
             this.rtbPreview.ReadOnly = true;
             this.rtbPreview.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
-            this.rtbPreview.Size = new System.Drawing.Size(628, 377);
+            this.rtbPreview.Size = new System.Drawing.Size(623, 418);
             this.rtbPreview.TabIndex = 7;
             this.rtbPreview.Text = "Preview";
             // 
@@ -202,11 +189,11 @@
             this.btnProject.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnProject.BackColor = System.Drawing.Color.Teal;
             this.btnProject.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnProject.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
+            this.btnProject.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnProject.ForeColor = System.Drawing.SystemColors.Window;
-            this.btnProject.Location = new System.Drawing.Point(1031, 420);
+            this.btnProject.Location = new System.Drawing.Point(525, 428);
             this.btnProject.Name = "btnProject";
-            this.btnProject.Size = new System.Drawing.Size(182, 64);
+            this.btnProject.Size = new System.Drawing.Size(101, 37);
             this.btnProject.TabIndex = 8;
             this.btnProject.Text = "Project";
             this.btnProject.UseVisualStyleBackColor = false;
@@ -229,7 +216,7 @@
             "Verse 3"});
             this.lbVersesPreview.Location = new System.Drawing.Point(7, 59);
             this.lbVersesPreview.Name = "lbVersesPreview";
-            this.lbVersesPreview.Size = new System.Drawing.Size(797, 764);
+            this.lbVersesPreview.Size = new System.Drawing.Size(798, 764);
             this.lbVersesPreview.TabIndex = 9;
             this.lbVersesPreview.SelectedIndexChanged += new System.EventHandler(this.lbVersesPreview_SelectedIndexChanged);
             // 
@@ -242,24 +229,22 @@
             this.tbcWonder.Location = new System.Drawing.Point(22, 12);
             this.tbcWonder.Name = "tbcWonder";
             this.tbcWonder.SelectedIndex = 0;
-            this.tbcWonder.Size = new System.Drawing.Size(1452, 870);
+            this.tbcWonder.Size = new System.Drawing.Size(1453, 870);
             this.tbcWonder.TabIndex = 10;
+            this.tbcWonder.SelectedIndexChanged += new System.EventHandler(this.tbcWonder_SelectedIndexChanged);
             // 
             // tbpBible
             // 
             this.tbpBible.BackColor = System.Drawing.Color.DarkCyan;
+            this.tbpBible.Controls.Add(this.label4);
+            this.tbpBible.Controls.Add(this.label3);
             this.tbpBible.Controls.Add(this.label1);
             this.tbpBible.Controls.Add(this.textBox1);
-            this.tbpBible.Controls.Add(this.checkBox3);
             this.tbpBible.Controls.Add(this.checkBox2);
             this.tbpBible.Controls.Add(this.checkBox1);
             this.tbpBible.Controls.Add(this.comboBox2);
             this.tbpBible.Controls.Add(this.comboBox1);
-            this.tbpBible.Controls.Add(this.btnTitleScreen);
-            this.tbpBible.Controls.Add(this.btnCensor);
-            this.tbpBible.Controls.Add(this.rtbPreview);
             this.tbpBible.Controls.Add(this.lbVersesPreview);
-            this.tbpBible.Controls.Add(this.btnProject);
             this.tbpBible.Controls.Add(this.btnUpdateVerse);
             this.tbpBible.Controls.Add(this.cbxBV);
             this.tbpBible.Controls.Add(this.cbxV);
@@ -269,116 +254,54 @@
             this.tbpBible.Location = new System.Drawing.Point(4, 27);
             this.tbpBible.Name = "tbpBible";
             this.tbpBible.Padding = new System.Windows.Forms.Padding(3);
-            this.tbpBible.Size = new System.Drawing.Size(1444, 839);
+            this.tbpBible.Size = new System.Drawing.Size(1445, 839);
             this.tbpBible.TabIndex = 0;
             this.tbpBible.Text = "Bible";
             // 
-            // tbpSongs
+            // label4
             // 
-            this.tbpSongs.BackColor = System.Drawing.Color.Teal;
-            this.tbpSongs.Controls.Add(this.comboBox4);
-            this.tbpSongs.Controls.Add(this.button8);
-            this.tbpSongs.Controls.Add(this.checkedListBox1);
-            this.tbpSongs.Controls.Add(this.comboBox3);
-            this.tbpSongs.Controls.Add(this.button7);
-            this.tbpSongs.Controls.Add(this.listBox2);
-            this.tbpSongs.Controls.Add(this.listBox1);
-            this.tbpSongs.Controls.Add(this.button14);
-            this.tbpSongs.Controls.Add(this.richTextBox9);
-            this.tbpSongs.Controls.Add(this.button10);
-            this.tbpSongs.Controls.Add(this.button9);
-            this.tbpSongs.Controls.Add(this.flowLayoutPanel2);
-            this.tbpSongs.Controls.Add(this.flowLayoutPanel1);
-            this.tbpSongs.Location = new System.Drawing.Point(4, 27);
-            this.tbpSongs.Name = "tbpSongs";
-            this.tbpSongs.Padding = new System.Windows.Forms.Padding(3);
-            this.tbpSongs.Size = new System.Drawing.Size(1444, 839);
-            this.tbpSongs.TabIndex = 1;
-            this.tbpSongs.Text = "Songs";
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Black;
+            this.label4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.Yellow;
+            this.label4.Location = new System.Drawing.Point(831, 749);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(343, 33);
+            this.label4.TabIndex = 34;
+            this.label4.Text = "UNDER CONSTRUCTION";
             // 
-            // btnCensor
+            // label3
             // 
-            this.btnCensor.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnCensor.BackColor = System.Drawing.Color.Teal;
-            this.btnCensor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCensor.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
-            this.btnCensor.ForeColor = System.Drawing.SystemColors.Window;
-            this.btnCensor.Location = new System.Drawing.Point(1262, 420);
-            this.btnCensor.Name = "btnCensor";
-            this.btnCensor.Size = new System.Drawing.Size(145, 64);
-            this.btnCensor.TabIndex = 10;
-            this.btnCensor.Text = "Censor";
-            this.btnCensor.UseVisualStyleBackColor = false;
-            this.btnCensor.Click += new System.EventHandler(this.btnCensor_Click);
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Black;
+            this.label3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Yellow;
+            this.label3.Location = new System.Drawing.Point(875, 613);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(463, 44);
+            this.label3.TabIndex = 31;
+            this.label3.Text = "UNDER CONSTRUCTION";
             // 
-            // btnTitleScreen
+            // label1
             // 
-            this.btnTitleScreen.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnTitleScreen.BackColor = System.Drawing.Color.Teal;
-            this.btnTitleScreen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTitleScreen.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
-            this.btnTitleScreen.ForeColor = System.Drawing.SystemColors.Window;
-            this.btnTitleScreen.Location = new System.Drawing.Point(846, 420);
-            this.btnTitleScreen.Name = "btnTitleScreen";
-            this.btnTitleScreen.Size = new System.Drawing.Size(145, 64);
-            this.btnTitleScreen.TabIndex = 11;
-            this.btnTitleScreen.Text = "Title";
-            this.btnTitleScreen.UseVisualStyleBackColor = false;
-            this.btnTitleScreen.Click += new System.EventHandler(this.btnTitleScreen_Click);
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(825, 507);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(197, 31);
+            this.label1.TabIndex = 20;
+            this.label1.Text = "Phrase Finder";
             // 
-            // tbpLibrary
+            // textBox1
             // 
-            this.tbpLibrary.BackColor = System.Drawing.Color.Teal;
-            this.tbpLibrary.Controls.Add(this.button19);
-            this.tbpLibrary.Controls.Add(this.richTextBox14);
-            this.tbpLibrary.Controls.Add(this.flowLayoutPanel3);
-            this.tbpLibrary.Controls.Add(this.listBox4);
-            this.tbpLibrary.Controls.Add(this.listBox3);
-            this.tbpLibrary.Controls.Add(this.button13);
-            this.tbpLibrary.Controls.Add(this.button12);
-            this.tbpLibrary.Controls.Add(this.button11);
-            this.tbpLibrary.Location = new System.Drawing.Point(4, 27);
-            this.tbpLibrary.Name = "tbpLibrary";
-            this.tbpLibrary.Size = new System.Drawing.Size(1444, 839);
-            this.tbpLibrary.TabIndex = 2;
-            this.tbpLibrary.Text = "Library";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.BackColor = System.Drawing.Color.Teal;
-            this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.ForeColor = System.Drawing.SystemColors.Window;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(1104, 768);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(136, 46);
-            this.comboBox1.TabIndex = 13;
-            this.comboBox1.Text = "KJV";
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.BackColor = System.Drawing.Color.Teal;
-            this.comboBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox2.ForeColor = System.Drawing.SystemColors.Window;
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(1271, 768);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(136, 46);
-            this.comboBox2.TabIndex = 14;
-            this.comboBox2.Text = "KJV";
-            // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.Location = new System.Drawing.Point(831, 775);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(228, 35);
-            this.checkBox1.TabIndex = 16;
-            this.checkBox1.Text = "Split Translation";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(831, 557);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(576, 158);
+            this.textBox1.TabIndex = 19;
             // 
             // checkBox2
             // 
@@ -393,279 +316,75 @@
             this.checkBox2.Text = "Single Line Verse";
             this.checkBox2.UseVisualStyleBackColor = true;
             // 
-            // checkBox3
+            // checkBox1
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox3.Location = new System.Drawing.Point(831, 665);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(184, 35);
-            this.checkBox3.TabIndex = 18;
-            this.checkBox3.Text = "Studio Mode";
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox1.Location = new System.Drawing.Point(831, 775);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(228, 35);
+            this.checkBox1.TabIndex = 16;
+            this.checkBox1.Text = "Split Translation";
+            this.checkBox1.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // comboBox2
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(831, 557);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(576, 91);
-            this.textBox1.TabIndex = 19;
+            this.comboBox2.BackColor = System.Drawing.Color.Teal;
+            this.comboBox2.Enabled = false;
+            this.comboBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox2.ForeColor = System.Drawing.SystemColors.Window;
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(1271, 768);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(136, 46);
+            this.comboBox2.TabIndex = 14;
+            this.comboBox2.Text = "KJV";
             // 
-            // label1
+            // comboBox1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(825, 509);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(197, 31);
-            this.label1.TabIndex = 20;
-            this.label1.Text = "Phrase Finder";
+            this.comboBox1.BackColor = System.Drawing.Color.Teal;
+            this.comboBox1.Enabled = false;
+            this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox1.ForeColor = System.Drawing.SystemColors.Window;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(1104, 768);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(136, 46);
+            this.comboBox1.TabIndex = 13;
+            this.comboBox1.Text = "KJV";
             // 
-            // flowLayoutPanel1
+            // tbpSongs
             // 
-            this.flowLayoutPanel1.BackColor = System.Drawing.Color.DarkCyan;
-            this.flowLayoutPanel1.Controls.Add(this.richTextBox1);
-            this.flowLayoutPanel1.Controls.Add(this.richTextBox2);
-            this.flowLayoutPanel1.Controls.Add(this.richTextBox3);
-            this.flowLayoutPanel1.Controls.Add(this.richTextBox4);
-            this.flowLayoutPanel1.Controls.Add(this.richTextBox5);
-            this.flowLayoutPanel1.Controls.Add(this.richTextBox7);
-            this.flowLayoutPanel1.Controls.Add(this.richTextBox15);
-            this.flowLayoutPanel1.Controls.Add(this.richTextBox16);
-            this.flowLayoutPanel1.Controls.Add(this.richTextBox17);
-            this.flowLayoutPanel1.Controls.Add(this.richTextBox18);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(20, 489);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(1421, 347);
-            this.flowLayoutPanel1.TabIndex = 3;
+            this.tbpSongs.BackColor = System.Drawing.Color.DarkCyan;
+            this.tbpSongs.Controls.Add(this.cbxPlaylists);
+            this.tbpSongs.Controls.Add(this.comboBox3);
+            this.tbpSongs.Controls.Add(this.lbxPlaylistSongs);
+            this.tbpSongs.Controls.Add(this.lbxLibrary);
+            this.tbpSongs.Controls.Add(this.button14);
+            this.tbpSongs.Controls.Add(this.button10);
+            this.tbpSongs.Controls.Add(this.button9);
+            this.tbpSongs.Controls.Add(this.flowLayoutPanel1);
+            this.tbpSongs.Location = new System.Drawing.Point(4, 27);
+            this.tbpSongs.Name = "tbpSongs";
+            this.tbpSongs.Padding = new System.Windows.Forms.Padding(3);
+            this.tbpSongs.Size = new System.Drawing.Size(1445, 839);
+            this.tbpSongs.TabIndex = 1;
+            this.tbpSongs.Text = "Songs";
             // 
-            // richTextBox2
+            // cbxPlaylists
             // 
-            this.richTextBox2.Location = new System.Drawing.Point(286, 3);
-            this.richTextBox2.Name = "richTextBox2";
-            this.richTextBox2.Size = new System.Drawing.Size(277, 164);
-            this.richTextBox2.TabIndex = 1;
-            this.richTextBox2.Text = resources.GetString("richTextBox2.Text");
-            // 
-            // richTextBox3
-            // 
-            this.richTextBox3.Location = new System.Drawing.Point(569, 3);
-            this.richTextBox3.Name = "richTextBox3";
-            this.richTextBox3.Size = new System.Drawing.Size(277, 164);
-            this.richTextBox3.TabIndex = 2;
-            this.richTextBox3.Text = resources.GetString("richTextBox3.Text");
-            // 
-            // richTextBox4
-            // 
-            this.richTextBox4.Location = new System.Drawing.Point(852, 3);
-            this.richTextBox4.Name = "richTextBox4";
-            this.richTextBox4.Size = new System.Drawing.Size(277, 164);
-            this.richTextBox4.TabIndex = 3;
-            this.richTextBox4.Text = resources.GetString("richTextBox4.Text");
-            // 
-            // richTextBox5
-            // 
-            this.richTextBox5.Location = new System.Drawing.Point(1135, 3);
-            this.richTextBox5.Name = "richTextBox5";
-            this.richTextBox5.Size = new System.Drawing.Size(277, 164);
-            this.richTextBox5.TabIndex = 4;
-            this.richTextBox5.Text = "Whoa-oh, whoa\nI see it now\nYou knew what you were doing\nWhoa-oh, whoa\nYou got it " +
-    "figured out\nI trust what you are doing, whoa, whoa";
-            // 
-            // richTextBox7
-            // 
-            this.richTextBox7.Location = new System.Drawing.Point(3, 173);
-            this.richTextBox7.Name = "richTextBox7";
-            this.richTextBox7.Size = new System.Drawing.Size(277, 164);
-            this.richTextBox7.TabIndex = 6;
-            this.richTextBox7.Text = "Always give me what, always give me what I needed";
-            // 
-            // flowLayoutPanel2
-            // 
-            this.flowLayoutPanel2.BackColor = System.Drawing.Color.DarkCyan;
-            this.flowLayoutPanel2.Controls.Add(this.button1);
-            this.flowLayoutPanel2.Controls.Add(this.button2);
-            this.flowLayoutPanel2.Controls.Add(this.button3);
-            this.flowLayoutPanel2.Controls.Add(this.button4);
-            this.flowLayoutPanel2.Controls.Add(this.button5);
-            this.flowLayoutPanel2.Controls.Add(this.button6);
-            this.flowLayoutPanel2.Controls.Add(this.button15);
-            this.flowLayoutPanel2.Controls.Add(this.button16);
-            this.flowLayoutPanel2.Controls.Add(this.button17);
-            this.flowLayoutPanel2.Controls.Add(this.button18);
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(973, 389);
-            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(257, 82);
-            this.flowLayoutPanel2.TabIndex = 4;
-            // 
-            // button1
-            // 
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(3, 3);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(45, 34);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "1";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(54, 3);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(45, 34);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "2";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(105, 3);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(45, 34);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "3";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Location = new System.Drawing.Point(156, 3);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(45, 34);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "4";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Location = new System.Drawing.Point(207, 3);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(45, 34);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "5";
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // button6
-            // 
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Location = new System.Drawing.Point(3, 43);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(45, 34);
-            this.button6.TabIndex = 5;
-            this.button6.Text = "6";
-            this.button6.UseVisualStyleBackColor = true;
-            // 
-            // button9
-            // 
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Location = new System.Drawing.Point(553, 418);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(102, 34);
-            this.button9.TabIndex = 5;
-            this.button9.Text = "<";
-            this.button9.UseVisualStyleBackColor = true;
-            // 
-            // button10
-            // 
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.Location = new System.Drawing.Point(676, 418);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(102, 34);
-            this.button10.TabIndex = 6;
-            this.button10.Text = ">";
-            this.button10.UseVisualStyleBackColor = true;
-            // 
-            // richTextBox9
-            // 
-            this.richTextBox9.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.richTextBox9.BackColor = System.Drawing.Color.DarkCyan;
-            this.richTextBox9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.richTextBox9.Cursor = System.Windows.Forms.Cursors.Default;
-            this.richTextBox9.Font = new System.Drawing.Font("Arial Narrow", 50.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.richTextBox9.ForeColor = System.Drawing.SystemColors.Window;
-            this.richTextBox9.Location = new System.Drawing.Point(810, 6);
-            this.richTextBox9.Name = "richTextBox9";
-            this.richTextBox9.ReadOnly = true;
-            this.richTextBox9.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
-            this.richTextBox9.Size = new System.Drawing.Size(628, 377);
-            this.richTextBox9.TabIndex = 8;
-            this.richTextBox9.Text = "Preview";
-            // 
-            // button14
-            // 
-            this.button14.BackColor = System.Drawing.Color.Teal;
-            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button14.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
-            this.button14.ForeColor = System.Drawing.SystemColors.Window;
-            this.button14.Location = new System.Drawing.Point(375, 22);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(137, 46);
-            this.button14.TabIndex = 21;
-            this.button14.Text = "Search";
-            this.button14.UseVisualStyleBackColor = false;
-            // 
-            // listBox1
-            // 
-            this.listBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.listBox1.BackColor = System.Drawing.Color.Teal;
-            this.listBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
-            this.listBox1.ForeColor = System.Drawing.SystemColors.Window;
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.HorizontalScrollbar = true;
-            this.listBox1.ItemHeight = 38;
-            this.listBox1.Items.AddRange(new object[] {
-            "Song 1",
-            "Song 2",
-            "Song 3",
-            "Song 4",
-            "Song 5"});
-            this.listBox1.Location = new System.Drawing.Point(33, 84);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(479, 384);
-            this.listBox1.TabIndex = 22;
-            // 
-            // listBox2
-            // 
-            this.listBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.listBox2.BackColor = System.Drawing.Color.Teal;
-            this.listBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.listBox2.ForeColor = System.Drawing.SystemColors.Window;
-            this.listBox2.FormattingEnabled = true;
-            this.listBox2.HorizontalScrollbar = true;
-            this.listBox2.ItemHeight = 25;
-            this.listBox2.Items.AddRange(new object[] {
-            "Playlist Song 1",
-            "Playlist Song 2",
-            "Playlist Song 3"});
-            this.listBox2.Location = new System.Drawing.Point(553, 84);
-            this.listBox2.Name = "listBox2";
-            this.listBox2.Size = new System.Drawing.Size(225, 229);
-            this.listBox2.TabIndex = 23;
-            // 
-            // button7
-            // 
-            this.button7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.button7.BackColor = System.Drawing.Color.Teal;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.ForeColor = System.Drawing.SystemColors.Window;
-            this.button7.Location = new System.Drawing.Point(627, 341);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(72, 42);
-            this.button7.TabIndex = 24;
-            this.button7.Text = "Add";
-            this.button7.UseVisualStyleBackColor = false;
+            this.cbxPlaylists.BackColor = System.Drawing.Color.Teal;
+            this.cbxPlaylists.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.cbxPlaylists.Font = new System.Drawing.Font("Microsoft Sans Serif", 24.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbxPlaylists.ForeColor = System.Drawing.SystemColors.Window;
+            this.cbxPlaylists.Location = new System.Drawing.Point(553, 23);
+            this.cbxPlaylists.Name = "cbxPlaylists";
+            this.cbxPlaylists.Size = new System.Drawing.Size(225, 46);
+            this.cbxPlaylists.TabIndex = 30;
+            this.cbxPlaylists.Text = "Sunday";
+            this.cbxPlaylists.SelectedIndexChanged += new System.EventHandler(this.cbxPlaylists_SelectedIndexChanged);
             // 
             // comboBox3
             // 
@@ -680,134 +399,275 @@
             this.comboBox3.TabIndex = 25;
             this.comboBox3.Text = "What I Needed";
             // 
-            // checkedListBox1
+            // lbxPlaylistSongs
             // 
-            this.checkedListBox1.BackColor = System.Drawing.Color.DarkCyan;
-            this.checkedListBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.checkedListBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkedListBox1.ForeColor = System.Drawing.SystemColors.Window;
-            this.checkedListBox1.FormattingEnabled = true;
-            this.checkedListBox1.Items.AddRange(new object[] {
-            "Project",
-            "Title",
-            "Censor",
-            "Studio"});
-            this.checkedListBox1.Location = new System.Drawing.Point(1289, 389);
-            this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(96, 96);
-            this.checkedListBox1.TabIndex = 28;
-            // 
-            // button8
-            // 
-            this.button8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.button8.BackColor = System.Drawing.Color.Teal;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button8.ForeColor = System.Drawing.SystemColors.Window;
-            this.button8.Location = new System.Drawing.Point(844, 412);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(84, 42);
-            this.button8.TabIndex = 29;
-            this.button8.Text = "Show";
-            this.button8.UseVisualStyleBackColor = false;
-            // 
-            // comboBox4
-            // 
-            this.comboBox4.BackColor = System.Drawing.Color.Teal;
-            this.comboBox4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.comboBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox4.ForeColor = System.Drawing.SystemColors.Window;
-            this.comboBox4.FormattingEnabled = true;
-            this.comboBox4.Location = new System.Drawing.Point(553, 23);
-            this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(225, 46);
-            this.comboBox4.TabIndex = 30;
-            this.comboBox4.Text = "Sunday";
-            // 
-            // button11
-            // 
-            this.button11.BackColor = System.Drawing.Color.Teal;
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button11.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
-            this.button11.ForeColor = System.Drawing.SystemColors.Window;
-            this.button11.Location = new System.Drawing.Point(814, 26);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(249, 184);
-            this.button11.TabIndex = 22;
-            this.button11.Text = "Add new song to library";
-            this.button11.UseVisualStyleBackColor = false;
-            // 
-            // button12
-            // 
-            this.button12.BackColor = System.Drawing.Color.Teal;
-            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button12.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
-            this.button12.ForeColor = System.Drawing.SystemColors.Window;
-            this.button12.Location = new System.Drawing.Point(45, 40);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(249, 184);
-            this.button12.TabIndex = 23;
-            this.button12.Text = "Make/edit Playlists";
-            this.button12.UseVisualStyleBackColor = false;
-            // 
-            // button13
-            // 
-            this.button13.BackColor = System.Drawing.Color.Teal;
-            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button13.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
-            this.button13.ForeColor = System.Drawing.SystemColors.Window;
-            this.button13.Location = new System.Drawing.Point(450, 40);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(249, 184);
-            this.button13.TabIndex = 24;
-            this.button13.Text = "Edit song";
-            this.button13.UseVisualStyleBackColor = false;
-            // 
-            // listBox3
-            // 
-            this.listBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.lbxPlaylistSongs.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.listBox3.BackColor = System.Drawing.Color.Teal;
-            this.listBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
-            this.listBox3.ForeColor = System.Drawing.SystemColors.Window;
-            this.listBox3.FormattingEnabled = true;
-            this.listBox3.HorizontalScrollbar = true;
-            this.listBox3.ItemHeight = 38;
-            this.listBox3.Items.AddRange(new object[] {
-            "Library",
+            this.lbxPlaylistSongs.BackColor = System.Drawing.Color.Teal;
+            this.lbxPlaylistSongs.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbxPlaylistSongs.ForeColor = System.Drawing.SystemColors.Window;
+            this.lbxPlaylistSongs.HorizontalScrollbar = true;
+            this.lbxPlaylistSongs.ItemHeight = 25;
+            this.lbxPlaylistSongs.Items.AddRange(new object[] {
+            "Playlist Song 1",
+            "Playlist Song 2",
+            "Playlist Song 3"});
+            this.lbxPlaylistSongs.Location = new System.Drawing.Point(536, 84);
+            this.lbxPlaylistSongs.Name = "lbxPlaylistSongs";
+            this.lbxPlaylistSongs.Size = new System.Drawing.Size(255, 304);
+            this.lbxPlaylistSongs.TabIndex = 23;
+            this.lbxPlaylistSongs.SelectedIndexChanged += new System.EventHandler(this.lbxPlaylistSongs_SelectedIndexChanged);
+            // 
+            // lbxLibrary
+            // 
+            this.lbxLibrary.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbxLibrary.BackColor = System.Drawing.Color.Teal;
+            this.lbxLibrary.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
+            this.lbxLibrary.ForeColor = System.Drawing.SystemColors.Window;
+            this.lbxLibrary.HorizontalScrollbar = true;
+            this.lbxLibrary.ItemHeight = 38;
+            this.lbxLibrary.Items.AddRange(new object[] {
             "Song 1",
             "Song 2",
             "Song 3",
             "Song 4",
             "Song 5"});
-            this.listBox3.Location = new System.Drawing.Point(393, 258);
-            this.listBox3.Name = "listBox3";
-            this.listBox3.Size = new System.Drawing.Size(371, 498);
-            this.listBox3.TabIndex = 25;
+            this.lbxLibrary.Location = new System.Drawing.Point(33, 84);
+            this.lbxLibrary.Name = "lbxLibrary";
+            this.lbxLibrary.Size = new System.Drawing.Size(480, 384);
+            this.lbxLibrary.TabIndex = 22;
+            this.lbxLibrary.SelectedIndexChanged += new System.EventHandler(this.lbxLibrary_SelectedIndexChanged);
             // 
-            // listBox4
+            // button14
             // 
-            this.listBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.listBox4.BackColor = System.Drawing.Color.Teal;
-            this.listBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
-            this.listBox4.ForeColor = System.Drawing.SystemColors.Window;
-            this.listBox4.FormattingEnabled = true;
-            this.listBox4.HorizontalScrollbar = true;
-            this.listBox4.ItemHeight = 38;
-            this.listBox4.Items.AddRange(new object[] {
-            "Playlists",
-            "Song 1",
-            "Song 2",
-            "Song 3",
-            "Song 4",
-            "Song 5"});
-            this.listBox4.Location = new System.Drawing.Point(29, 258);
-            this.listBox4.Name = "listBox4";
-            this.listBox4.Size = new System.Drawing.Size(298, 498);
-            this.listBox4.TabIndex = 26;
+            this.button14.BackColor = System.Drawing.Color.Teal;
+            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button14.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
+            this.button14.ForeColor = System.Drawing.SystemColors.Window;
+            this.button14.Location = new System.Drawing.Point(375, 22);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(137, 46);
+            this.button14.TabIndex = 21;
+            this.button14.Text = "Search";
+            this.button14.UseVisualStyleBackColor = false;
+            // 
+            // button10
+            // 
+            this.button10.Enabled = false;
+            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button10.Location = new System.Drawing.Point(689, 418);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(102, 34);
+            this.button10.TabIndex = 6;
+            this.button10.Text = ">";
+            this.button10.UseVisualStyleBackColor = true;
+            // 
+            // button9
+            // 
+            this.button9.Enabled = false;
+            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button9.Location = new System.Drawing.Point(536, 418);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(102, 34);
+            this.button9.TabIndex = 5;
+            this.button9.Text = "<";
+            this.button9.UseVisualStyleBackColor = true;
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.BackColor = System.Drawing.Color.DarkCyan;
+            this.flowLayoutPanel1.Controls.Add(this.btnL1);
+            this.flowLayoutPanel1.Controls.Add(this.btnL2);
+            this.flowLayoutPanel1.Controls.Add(this.btnL3);
+            this.flowLayoutPanel1.Controls.Add(this.btnL4);
+            this.flowLayoutPanel1.Controls.Add(this.btnL5);
+            this.flowLayoutPanel1.Controls.Add(this.btnL6);
+            this.flowLayoutPanel1.Controls.Add(this.btnL7);
+            this.flowLayoutPanel1.Controls.Add(this.btnL8);
+            this.flowLayoutPanel1.Controls.Add(this.btnL9);
+            this.flowLayoutPanel1.Controls.Add(this.btnL10);
+            this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(20, 489);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(1421, 347);
+            this.flowLayoutPanel1.TabIndex = 3;
+            // 
+            // btnL1
+            // 
+            this.btnL1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnL1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnL1.Location = new System.Drawing.Point(3, 3);
+            this.btnL1.Name = "btnL1";
+            this.btnL1.Size = new System.Drawing.Size(277, 164);
+            this.btnL1.TabIndex = 10;
+            this.btnL1.Text = "Verse 1";
+            this.btnL1.UseVisualStyleBackColor = false;
+            this.btnL1.Click += new System.EventHandler(this.btnL1_Click);
+            // 
+            // btnL2
+            // 
+            this.btnL2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnL2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnL2.Location = new System.Drawing.Point(3, 173);
+            this.btnL2.Name = "btnL2";
+            this.btnL2.Size = new System.Drawing.Size(277, 164);
+            this.btnL2.TabIndex = 11;
+            this.btnL2.Text = "Verse 2";
+            this.btnL2.UseVisualStyleBackColor = false;
+            this.btnL2.Click += new System.EventHandler(this.btnL2_Click);
+            // 
+            // btnL3
+            // 
+            this.btnL3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnL3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnL3.Location = new System.Drawing.Point(286, 3);
+            this.btnL3.Name = "btnL3";
+            this.btnL3.Size = new System.Drawing.Size(277, 164);
+            this.btnL3.TabIndex = 12;
+            this.btnL3.Text = "Verse 3";
+            this.btnL3.UseVisualStyleBackColor = false;
+            this.btnL3.Click += new System.EventHandler(this.btnL3_Click);
+            // 
+            // btnL4
+            // 
+            this.btnL4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnL4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnL4.Location = new System.Drawing.Point(286, 173);
+            this.btnL4.Name = "btnL4";
+            this.btnL4.Size = new System.Drawing.Size(277, 164);
+            this.btnL4.TabIndex = 13;
+            this.btnL4.Text = "Verse 4";
+            this.btnL4.UseVisualStyleBackColor = false;
+            this.btnL4.Click += new System.EventHandler(this.btnL4_Click);
+            // 
+            // btnL5
+            // 
+            this.btnL5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnL5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnL5.Location = new System.Drawing.Point(569, 3);
+            this.btnL5.Name = "btnL5";
+            this.btnL5.Size = new System.Drawing.Size(277, 164);
+            this.btnL5.TabIndex = 14;
+            this.btnL5.Text = "Pre Chorus 1";
+            this.btnL5.UseVisualStyleBackColor = false;
+            this.btnL5.Click += new System.EventHandler(this.btnL5_Click);
+            // 
+            // btnL6
+            // 
+            this.btnL6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnL6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnL6.Location = new System.Drawing.Point(569, 173);
+            this.btnL6.Name = "btnL6";
+            this.btnL6.Size = new System.Drawing.Size(277, 164);
+            this.btnL6.TabIndex = 15;
+            this.btnL6.Text = "Chorus 1";
+            this.btnL6.UseVisualStyleBackColor = false;
+            this.btnL6.Click += new System.EventHandler(this.btnL6_Click);
+            // 
+            // btnL7
+            // 
+            this.btnL7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnL7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnL7.Location = new System.Drawing.Point(852, 3);
+            this.btnL7.Name = "btnL7";
+            this.btnL7.Size = new System.Drawing.Size(277, 164);
+            this.btnL7.TabIndex = 16;
+            this.btnL7.Text = "Chorus 2";
+            this.btnL7.UseVisualStyleBackColor = false;
+            this.btnL7.Click += new System.EventHandler(this.btnL7_Click);
+            // 
+            // btnL8
+            // 
+            this.btnL8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnL8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnL8.Location = new System.Drawing.Point(852, 173);
+            this.btnL8.Name = "btnL8";
+            this.btnL8.Size = new System.Drawing.Size(277, 164);
+            this.btnL8.TabIndex = 17;
+            this.btnL8.Text = "Bridge 1";
+            this.btnL8.UseVisualStyleBackColor = false;
+            this.btnL8.Click += new System.EventHandler(this.btnL8_Click);
+            // 
+            // btnL9
+            // 
+            this.btnL9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnL9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnL9.Location = new System.Drawing.Point(1135, 3);
+            this.btnL9.Name = "btnL9";
+            this.btnL9.Size = new System.Drawing.Size(277, 164);
+            this.btnL9.TabIndex = 18;
+            this.btnL9.Text = "Bridge 2";
+            this.btnL9.UseVisualStyleBackColor = false;
+            this.btnL9.Click += new System.EventHandler(this.btnL9_Click);
+            // 
+            // btnL10
+            // 
+            this.btnL10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnL10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnL10.Location = new System.Drawing.Point(1135, 173);
+            this.btnL10.Name = "btnL10";
+            this.btnL10.Size = new System.Drawing.Size(277, 164);
+            this.btnL10.TabIndex = 19;
+            this.btnL10.Text = "Ending";
+            this.btnL10.UseVisualStyleBackColor = false;
+            this.btnL10.Click += new System.EventHandler(this.btnL10_Click);
+            // 
+            // tbpLibrary
+            // 
+            this.tbpLibrary.BackColor = System.Drawing.Color.Teal;
+            this.tbpLibrary.Controls.Add(this.label2);
+            this.tbpLibrary.Controls.Add(this.button19);
+            this.tbpLibrary.Controls.Add(this.richTextBox14);
+            this.tbpLibrary.Controls.Add(this.flowLayoutPanel3);
+            this.tbpLibrary.Controls.Add(this.listBox4);
+            this.tbpLibrary.Controls.Add(this.listBox3);
+            this.tbpLibrary.Controls.Add(this.button13);
+            this.tbpLibrary.Controls.Add(this.button12);
+            this.tbpLibrary.Controls.Add(this.button11);
+            this.tbpLibrary.Location = new System.Drawing.Point(4, 27);
+            this.tbpLibrary.Name = "tbpLibrary";
+            this.tbpLibrary.Size = new System.Drawing.Size(1445, 839);
+            this.tbpLibrary.TabIndex = 2;
+            this.tbpLibrary.Text = "Library";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Black;
+            this.label2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Yellow;
+            this.label2.Location = new System.Drawing.Point(150, 315);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(1186, 110);
+            this.label2.TabIndex = 30;
+            this.label2.Text = "UNDER CONSTRUCTION";
+            // 
+            // button19
+            // 
+            this.button19.BackColor = System.Drawing.Color.Teal;
+            this.button19.Enabled = false;
+            this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button19.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
+            this.button19.ForeColor = System.Drawing.SystemColors.Window;
+            this.button19.Location = new System.Drawing.Point(1023, 772);
+            this.button19.Name = "button19";
+            this.button19.Size = new System.Drawing.Size(149, 48);
+            this.button19.TabIndex = 29;
+            this.button19.Text = "Save";
+            this.button19.UseVisualStyleBackColor = false;
+            // 
+            // richTextBox14
+            // 
+            this.richTextBox14.Enabled = false;
+            this.richTextBox14.Location = new System.Drawing.Point(1097, 26);
+            this.richTextBox14.Name = "richTextBox14";
+            this.richTextBox14.Size = new System.Drawing.Size(277, 184);
+            this.richTextBox14.TabIndex = 28;
+            this.richTextBox14.Text = "Song Details.. \nName\nAuthor\nChords\nKeys";
             // 
             // flowLayoutPanel3
             // 
@@ -818,6 +678,7 @@
             this.flowLayoutPanel3.Controls.Add(this.richTextBox11);
             this.flowLayoutPanel3.Controls.Add(this.richTextBox12);
             this.flowLayoutPanel3.Controls.Add(this.richTextBox13);
+            this.flowLayoutPanel3.Enabled = false;
             this.flowLayoutPanel3.Location = new System.Drawing.Point(811, 236);
             this.flowLayoutPanel3.Name = "flowLayoutPanel3";
             this.flowLayoutPanel3.Size = new System.Drawing.Size(571, 530);
@@ -874,116 +735,162 @@
             this.richTextBox13.TabIndex = 6;
             this.richTextBox13.Text = "Always give me what, always give me what I needed";
             // 
-            // richTextBox14
+            // listBox4
             // 
-            this.richTextBox14.Location = new System.Drawing.Point(1097, 26);
-            this.richTextBox14.Name = "richTextBox14";
-            this.richTextBox14.Size = new System.Drawing.Size(277, 184);
-            this.richTextBox14.TabIndex = 28;
-            this.richTextBox14.Text = "Song Details.. \nName\nAuthor\nChords\nKeys";
+            this.listBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.listBox4.BackColor = System.Drawing.Color.Teal;
+            this.listBox4.Enabled = false;
+            this.listBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
+            this.listBox4.ForeColor = System.Drawing.SystemColors.Window;
+            this.listBox4.FormattingEnabled = true;
+            this.listBox4.HorizontalScrollbar = true;
+            this.listBox4.ItemHeight = 38;
+            this.listBox4.Items.AddRange(new object[] {
+            "Playlists",
+            "Song 1",
+            "Song 2",
+            "Song 3",
+            "Song 4",
+            "Song 5"});
+            this.listBox4.Location = new System.Drawing.Point(29, 258);
+            this.listBox4.Name = "listBox4";
+            this.listBox4.Size = new System.Drawing.Size(299, 498);
+            this.listBox4.TabIndex = 26;
             // 
-            // richTextBox15
+            // listBox3
             // 
-            this.richTextBox15.Location = new System.Drawing.Point(286, 173);
-            this.richTextBox15.Name = "richTextBox15";
-            this.richTextBox15.Size = new System.Drawing.Size(277, 164);
-            this.richTextBox15.TabIndex = 7;
-            this.richTextBox15.Text = "";
+            this.listBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.listBox3.BackColor = System.Drawing.Color.Teal;
+            this.listBox3.Enabled = false;
+            this.listBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
+            this.listBox3.ForeColor = System.Drawing.SystemColors.Window;
+            this.listBox3.FormattingEnabled = true;
+            this.listBox3.HorizontalScrollbar = true;
+            this.listBox3.ItemHeight = 38;
+            this.listBox3.Items.AddRange(new object[] {
+            "Library",
+            "Song 1",
+            "Song 2",
+            "Song 3",
+            "Song 4",
+            "Song 5"});
+            this.listBox3.Location = new System.Drawing.Point(393, 258);
+            this.listBox3.Name = "listBox3";
+            this.listBox3.Size = new System.Drawing.Size(372, 498);
+            this.listBox3.TabIndex = 25;
             // 
-            // button15
+            // button13
             // 
-            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button15.Location = new System.Drawing.Point(54, 43);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(45, 34);
-            this.button15.TabIndex = 6;
-            this.button15.Text = "7";
-            this.button15.UseVisualStyleBackColor = true;
+            this.button13.BackColor = System.Drawing.Color.Teal;
+            this.button13.Enabled = false;
+            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button13.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
+            this.button13.ForeColor = System.Drawing.SystemColors.Window;
+            this.button13.Location = new System.Drawing.Point(450, 40);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(249, 184);
+            this.button13.TabIndex = 24;
+            this.button13.Text = "Edit song";
+            this.button13.UseVisualStyleBackColor = false;
             // 
-            // button16
+            // button12
             // 
-            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button16.Location = new System.Drawing.Point(105, 43);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(45, 34);
-            this.button16.TabIndex = 7;
-            this.button16.Text = "8";
-            this.button16.UseVisualStyleBackColor = true;
+            this.button12.BackColor = System.Drawing.Color.Teal;
+            this.button12.Enabled = false;
+            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button12.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
+            this.button12.ForeColor = System.Drawing.SystemColors.Window;
+            this.button12.Location = new System.Drawing.Point(45, 40);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(249, 184);
+            this.button12.TabIndex = 23;
+            this.button12.Text = "Make/edit Playlists";
+            this.button12.UseVisualStyleBackColor = false;
             // 
-            // button17
+            // button11
             // 
-            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button17.Location = new System.Drawing.Point(156, 43);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(45, 34);
-            this.button17.TabIndex = 8;
-            this.button17.Text = "9";
-            this.button17.UseVisualStyleBackColor = true;
+            this.button11.BackColor = System.Drawing.Color.Teal;
+            this.button11.Enabled = false;
+            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button11.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
+            this.button11.ForeColor = System.Drawing.SystemColors.Window;
+            this.button11.Location = new System.Drawing.Point(814, 26);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(249, 184);
+            this.button11.TabIndex = 22;
+            this.button11.Text = "Add new song to library";
+            this.button11.UseVisualStyleBackColor = false;
             // 
-            // button18
+            // btnTitleScreen
             // 
-            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button18.Location = new System.Drawing.Point(207, 43);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(45, 34);
-            this.button18.TabIndex = 9;
-            this.button18.Text = "10";
-            this.button18.UseVisualStyleBackColor = true;
+            this.btnTitleScreen.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnTitleScreen.BackColor = System.Drawing.Color.Teal;
+            this.btnTitleScreen.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnTitleScreen.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTitleScreen.ForeColor = System.Drawing.SystemColors.Window;
+            this.btnTitleScreen.Location = new System.Drawing.Point(311, 428);
+            this.btnTitleScreen.Name = "btnTitleScreen";
+            this.btnTitleScreen.Size = new System.Drawing.Size(101, 37);
+            this.btnTitleScreen.TabIndex = 11;
+            this.btnTitleScreen.Text = "Title";
+            this.btnTitleScreen.UseVisualStyleBackColor = false;
+            this.btnTitleScreen.Click += new System.EventHandler(this.btnTitleScreen_Click);
             // 
-            // richTextBox1
+            // btnCensor
             // 
-            this.richTextBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.richTextBox1.Enabled = false;
-            this.richTextBox1.Location = new System.Drawing.Point(3, 3);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.ReadOnly = true;
-            this.richTextBox1.Size = new System.Drawing.Size(277, 164);
-            this.richTextBox1.TabIndex = 0;
-            this.richTextBox1.Text = resources.GetString("richTextBox1.Text");
+            this.btnCensor.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnCensor.BackColor = System.Drawing.Color.Teal;
+            this.btnCensor.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnCensor.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCensor.ForeColor = System.Drawing.SystemColors.Window;
+            this.btnCensor.Location = new System.Drawing.Point(418, 428);
+            this.btnCensor.Name = "btnCensor";
+            this.btnCensor.Size = new System.Drawing.Size(101, 37);
+            this.btnCensor.TabIndex = 10;
+            this.btnCensor.Text = "Censor";
+            this.btnCensor.UseVisualStyleBackColor = false;
+            this.btnCensor.Click += new System.EventHandler(this.btnCensor_Click);
             // 
-            // richTextBox16
+            // btnLive
             // 
-            this.richTextBox16.Location = new System.Drawing.Point(569, 173);
-            this.richTextBox16.Name = "richTextBox16";
-            this.richTextBox16.Size = new System.Drawing.Size(277, 164);
-            this.richTextBox16.TabIndex = 8;
-            this.richTextBox16.Text = "";
+            this.btnLive.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.btnLive.BackColor = System.Drawing.Color.Teal;
+            this.btnLive.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnLive.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLive.ForeColor = System.Drawing.SystemColors.Window;
+            this.btnLive.Location = new System.Drawing.Point(4, 428);
+            this.btnLive.Name = "btnLive";
+            this.btnLive.Size = new System.Drawing.Size(101, 37);
+            this.btnLive.TabIndex = 31;
+            this.btnLive.Text = "Live";
+            this.btnLive.UseVisualStyleBackColor = false;
+            this.btnLive.Visible = false;
+            this.btnLive.Click += new System.EventHandler(this.btnLive_Click);
             // 
-            // richTextBox17
+            // pnlPreview
             // 
-            this.richTextBox17.Location = new System.Drawing.Point(852, 173);
-            this.richTextBox17.Name = "richTextBox17";
-            this.richTextBox17.Size = new System.Drawing.Size(277, 164);
-            this.richTextBox17.TabIndex = 9;
-            this.richTextBox17.Text = "";
-            // 
-            // richTextBox18
-            // 
-            this.richTextBox18.Location = new System.Drawing.Point(1135, 173);
-            this.richTextBox18.Name = "richTextBox18";
-            this.richTextBox18.Size = new System.Drawing.Size(277, 164);
-            this.richTextBox18.TabIndex = 10;
-            this.richTextBox18.Text = "";
-            // 
-            // button19
-            // 
-            this.button19.BackColor = System.Drawing.Color.Teal;
-            this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button19.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F);
-            this.button19.ForeColor = System.Drawing.SystemColors.Window;
-            this.button19.Location = new System.Drawing.Point(1023, 772);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(149, 48);
-            this.button19.TabIndex = 29;
-            this.button19.Text = "Save";
-            this.button19.UseVisualStyleBackColor = false;
+            this.pnlPreview.BackColor = System.Drawing.Color.Transparent;
+            this.pnlPreview.Controls.Add(this.rtbPreview);
+            this.pnlPreview.Controls.Add(this.btnTitleScreen);
+            this.pnlPreview.Controls.Add(this.btnLive);
+            this.pnlPreview.Controls.Add(this.btnCensor);
+            this.pnlPreview.Controls.Add(this.btnProject);
+            this.pnlPreview.Location = new System.Drawing.Point(836, 42);
+            this.pnlPreview.Name = "pnlPreview";
+            this.pnlPreview.Size = new System.Drawing.Size(629, 480);
+            this.pnlPreview.TabIndex = 11;
             // 
             // Skeleton
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkCyan;
-            this.ClientSize = new System.Drawing.Size(1502, 915);
+            this.ClientSize = new System.Drawing.Size(1501, 905);
+            this.Controls.Add(this.pnlPreview);
             this.Controls.Add(this.tbcWonder);
             this.ForeColor = System.Drawing.SystemColors.Window;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
@@ -996,10 +903,11 @@
             this.tbpBible.ResumeLayout(false);
             this.tbpBible.PerformLayout();
             this.tbpSongs.ResumeLayout(false);
-            this.tbpLibrary.ResumeLayout(false);
             this.flowLayoutPanel1.ResumeLayout(false);
-            this.flowLayoutPanel2.ResumeLayout(false);
+            this.tbpLibrary.ResumeLayout(false);
+            this.tbpLibrary.PerformLayout();
             this.flowLayoutPanel3.ResumeLayout(false);
+            this.pnlPreview.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1021,35 +929,18 @@
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.TabPage tbpLibrary;
-        private System.Windows.Forms.CheckBox checkBox3;
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private System.Windows.Forms.RichTextBox richTextBox2;
-        private System.Windows.Forms.RichTextBox richTextBox3;
-        private System.Windows.Forms.RichTextBox richTextBox4;
-        private System.Windows.Forms.RichTextBox richTextBox5;
-        private System.Windows.Forms.RichTextBox richTextBox7;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.RichTextBox richTextBox9;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.ListBox listBox2;
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.ListBox lbxPlaylistSongs;
+        private System.Windows.Forms.ListBox lbxLibrary;
         private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.CheckedListBox checkedListBox1;
-        private System.Windows.Forms.ComboBox comboBox4;
-        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.ComboBox cbxPlaylists;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel3;
         private System.Windows.Forms.RichTextBox richTextBox6;
         private System.Windows.Forms.RichTextBox richTextBox8;
@@ -1062,17 +953,23 @@
         private System.Windows.Forms.Button button13;
         private System.Windows.Forms.Button button12;
         private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Button button16;
-        private System.Windows.Forms.Button button17;
-        private System.Windows.Forms.Button button18;
-        private System.Windows.Forms.RichTextBox richTextBox15;
         private System.Windows.Forms.RichTextBox richTextBox14;
-        private System.Windows.Forms.RichTextBox richTextBox1;
-        private System.Windows.Forms.RichTextBox richTextBox16;
-        private System.Windows.Forms.RichTextBox richTextBox17;
-        private System.Windows.Forms.RichTextBox richTextBox18;
         private System.Windows.Forms.Button button19;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button btnL1;
+        private System.Windows.Forms.Button btnL2;
+        private System.Windows.Forms.Button btnL3;
+        private System.Windows.Forms.Button btnL4;
+        private System.Windows.Forms.Button btnL5;
+        private System.Windows.Forms.Button btnL6;
+        private System.Windows.Forms.Button btnL7;
+        private System.Windows.Forms.Button btnL8;
+        private System.Windows.Forms.Button btnL9;
+        private System.Windows.Forms.Button btnL10;
+        private System.Windows.Forms.Button btnLive;
+        private System.Windows.Forms.Panel pnlPreview;
     }
 }
 
