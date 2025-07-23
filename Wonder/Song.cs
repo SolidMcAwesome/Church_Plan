@@ -33,7 +33,7 @@ namespace Wonder
             {
                 if (songfile.ToString() != "Template" && songfile.ToString() != "Playlists")
                 {
-                    Console.WriteLine(songfile);
+                    //Console.WriteLine(songfile);
                     string songTitle = "";
 
                     List<string> songLyrics = new List<string>();
